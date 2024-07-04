@@ -1,0 +1,108 @@
+\documentclass[12pt,a4paper,oneside,parskip=half]{scrbook}
+%
+\usepackage{polyglossia}
+\setmainlanguage{spanish}
+%
+\usepackage{cancel}
+\usepackage{xcolor}
+\definecolor{darkgreen}{RGB}{0,100,0}
+%
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{graphicx}
+\graphicspath{{img/},{res/}}
+\usepackage{enumerate}
+\usepackage[hyphens]{url}
+\urlstyle{same}
+\usepackage[style=apa, backend=biber]{biblatex}
+\addbibresource{ArticlesRead.bib}
+\addbibresource{UnreadArticles.bib}
+\addbibresource{UnreadBookSection.bib}
+\addbibresource{UnreadPhdthesis.bib}
+\DeclareLanguageMapping{spanish}{spanish-apa}
+\usepackage{csquotes}
+\usepackage{braket}
+\usepackage{subcaption}
+\usepackage{booktabs}
+\usepackage{tikz}
+\usepackage[left=2.5cm, right=2.5cm, top=2.5cm, bottom=2.5cm]{geometry}
+\usepackage[hidelinks]{hyperref}
+\hypersetup{breaklinks=true}
+%
+\usepackage{scrlayer-scrpage}
+\clearpairofpagestyles % Clears the default page styles
+\ihead{\rightmark}    % Inner header
+\ohead{}   % Outer header
+\ifoot{}    % Inner footer
+\ofoot{\pagemark}      % Outer footer with page number
+\cfoot{}               % Clears the center footer
+%
+\usepackage{subfiles}
+\begin{document}
+\frontmatter
+%
+%portada
+\begin{titlepage}
+\centering
+\includegraphics[scale=0.105]{escudoUN}\par
+\vspace{1cm}
+{\scshape \Huge Efecto del campo magnético en la producción de oscilaciones gigante-Rabi en el marco de la cQED acústica \par}
+\vfill
+{\Large \textbf{Jose Luis Alvarado Martínez} \par}
+\vfill
+{\large \textit{Trabajo final de maestr\'ia} \par}
+\vfill
+{\large Director:\\ \textbf{Profesor Herbert Vinck Posada} \par}
+\vfill
+{\large Co-director:\\ \textbf{Profesor Edgar Arturo Gómez} \par}
+\vfill
+{\large Universidad Nacional de Colombia\\
+	Facultad de Ciencias, Departamento de F\'isica\\
+	Bogot\'a, Colombia\\
+	\today \par}
+\end{titlepage}
+%
+\section*{Agradecimientos}
+\addcontentsline{toc}{chapter}{Agradecimientos}
+A mis seres queridos.
+%
+\newpage
+%
+\section*{Resumen}
+\addcontentsline{toc}{chapter}{Resumen}
+decir todo lo que se hizo en el trabajo de forma sucinta, hasta hay un limite maximo de palabras. Es decir, contar todo el cuento de forma muy superficial de tal manera que se logre dar la idea general sin perder generalidad del mismo
+%
+\tableofcontents
+\listoffigures
+%
+\mainmatter
+%
+\subfile{caps/1_int.tex}
+\subfile{caps/2_mot.tex}
+\subfile{caps/3_pro.tex}
+\subfile{caps/4_art.tex}
+\subfile{caps/5_sis.tex}
+\subfile{caps/6_mod.tex}
+\subfile{caps/7_res.tex}
+\subfile{caps/8_ana.tex}
+
+\chapter*{Conclusiones}
+\addcontentsline{toc}{chapter}{Conclusiones}
+
+%
+\appendix
+\chapter*{\textsc{AP\'ENDICES}}
+\addcontentsline{toc}{chapter}{Apéndices}
+%% 
+%\begin{titlepage}
+%\centering
+%\vspace*{\fill} % Añade espacio verticalmente para centrar 'Apéndices'
+%\Huge 
+%\vspace*{\fill} % Continúa añadiendo espacio al final para mantener el texto centrado
+%\end{titlepage}
+\subfile{caps/ape.tex}
+\backmatter
+%
+\printbibliography[heading=subbibliography]
+\addcontentsline{toc}{chapter}{Referencias}
+%
+\end{document}

@@ -1,0 +1,317 @@
+\documentclass[../main.tex]{subfiles}
+\begin{document}
+\chapter{Hamiltoniano del sistema reescrito}
+\begin{eqnarray}
+	H_\text{QD} &=& \omega_X (\sigma_1^{\dagger }\sigma_1 + \sigma_2^\dagger\sigma_2) + \overbrace{(\omega_X-\delta_0)}^{\omega_d} (\sigma_3^\dagger\sigma_3 + \sigma_4^\dagger\sigma_4) \nonumber\\ &+& (\tfrac{1}{2}\delta_1 \sigma_1^\dagger\sigma_2 + \tfrac{1}{2}\delta_2\sigma_3^\dagger\sigma_4 + \text{H.c.})\\
+	H_\text{láser}&=& e^{i t\omega_L}(\sigma_1 \Omega_1 + \sigma_2 \Omega_2) + \text{H.c.}\\
+	H_\text{cav} &=&  \omega_b b^\dagger b\\
+	H_\text{el-fo} &=&  \{\tfrac{1}{\sqrt{2}} g_{bd} [(1+i) (\sigma_1^\dagger\sigma_3 + \sigma_1^\dagger\sigma_4) + (1-i) (\sigma_2^\dagger\sigma_3 + \sigma_2^\dagger\sigma_4)] \nonumber\\
+	&+& g_{bb} [\sigma_1^\dagger\sigma_1 + \sigma_2^\dagger\sigma_2 + i (\sigma_1^\dagger\sigma_2 - \sigma_2^\dagger\sigma_1)]\}(b^\dagger + b)  + \text{H.c.}\\
+	H_\text{mag} &=& \beta_+(\sigma_1^\dagger\sigma_1 - \sigma_2^\dagger\sigma_2) + \beta_-(\sigma_4^\dagger\sigma_4 - \sigma_3^\dagger\sigma_3) \nonumber\\
+	&+& [\beta_e (\sigma_1^\dagger\sigma_3 + \sigma_2^\dagger\sigma_4) + \beta_h (\sigma _1^\dagger\sigma_4 + \sigma_2^\dagger\sigma_3) + \text{H.c.}] \nonumber\\
+	&+& \alpha  B^2(\sigma_1^\dagger\sigma_1 + \sigma_2^\dagger\sigma_2 + \sigma_3^\dagger\sigma_3 + \sigma_4^\dagger\sigma_4)
+\end{eqnarray}
+donde $\sigma_i = |0\rangle\langle i|$ es el operador aniquilación del excitón y $b$ el operador aniquilación del fonón
+
+Hamiltoniano del sistema
+\begin{eqnarray}
+	H&=& H_\text{QD} + H_\text{láser} + H_\text{cav} + H_\text{el-fo} + H_\text{mag} \nonumber\\
+	&=& \omega_b b^\dagger b + (\omega_X + \beta_+ + \alpha B^2)\sigma_{11} + (\omega_X - \beta_+ +\alpha B^2)\sigma_{22} \nonumber\\
+	&+& (\omega_X - \delta_0 - \beta_- + \alpha B^2)\sigma_{33} + (\omega_X - \delta_0 + \beta_- + \alpha B^2)\sigma_{44} \nonumber\\
+	&+& \{e^{it\omega_L t}\Omega_1\sigma_{01} + e^{it\omega_L t}\Omega_2\sigma_{02} \nonumber\\
+	&+& g_{\text{bb}} (b+b^\dagger) \sigma_{11} + g_{\text{bb}} (b+b^\dagger) \sigma_{22} + (\tfrac{1}{2}\delta_1 + 2ig_{\text{bb}}b)\sigma_{12}\nonumber\\
+	&+& [\beta_e + \tfrac{1}{\sqrt{2}} (1+i) g_{\text{bd}} (b+b^\dagger)]\sigma _{13} + [\beta_h + \tfrac{1}{\sqrt{2}}(1+i) (b+b^\dagger) g_{\text{bd}}]\sigma _{14} \nonumber\\
+	&+& [\beta _h + \tfrac{1}{\sqrt{2}} (1-i)(b+b^\dagger) g_{\text{bd}}]\sigma_{23} + [\beta_e + \tfrac{1}{\sqrt{2}}(1-i) (b+b^\dagger) g_{\text{bd}}]\sigma_{24}\nonumber\\
+	&+& \tfrac{1}{2}\delta _2 \sigma_{34} + \text{H.c.}\}
+\end{eqnarray}
+donde $\sigma_{ij} = |i\rangle\langle j| = \sigma_i^\dagger\sigma_j$ son los operadores escalera y $b$ el operador aniquilación del fonón
+
+\begin{eqnarray}
+	H_\text{rf}&=&\Delta (\sigma_1^{\dagger }\sigma_1 + \sigma_2^\dagger\sigma_2) + (\Delta - \delta_0) (\sigma_3^\dagger\sigma_3 + \sigma_4^\dagger\sigma_4) + (\tfrac{1}{2}\delta_1 \sigma_1^\dagger\sigma_2 + \tfrac{1}{2}\delta_2\sigma_3^\dagger\sigma_4 + \text{H.c.}) \nonumber\\
+	&+&(\sigma_1 \Omega_1 + \sigma_2 \Omega_2 + \text{H.c.}) + \omega_b b^\dagger b \nonumber\\
+	&+&\{[g_{bb} (\sigma_1^\dagger\sigma_1 + \sigma_2^\dagger\sigma_2 + i (\sigma_1^\dagger\sigma_2 - \sigma_2^\dagger\sigma_1)) \nonumber\\
+	&+& \tfrac{1}{\sqrt{2}} g_{bd} ((1+i) (\sigma_1^\dagger\sigma_3 + \sigma_1^\dagger\sigma_4) + (1-i) (\sigma_2^\dagger\sigma_3 + \sigma_2^\dagger\sigma_4))](b^\dagger + b) + \text{H.c.}\} \nonumber\\
+	&+& \alpha  B^2(\sigma_1^\dagger\sigma_1 + \sigma_2^\dagger\sigma_2 + \sigma_3^\dagger\sigma_3 + \sigma_4^\dagger\sigma_4) + \beta_- (\sigma_4^\dagger\sigma_4 - \sigma_3^\dagger\sigma_3) + \beta_+(\sigma_1^\dagger\sigma_1 - \sigma_2^\dagger\sigma_2) \nonumber\\
+	&+& [\beta_e (\sigma_1^\dagger\sigma_3 + \sigma_2^\dagger\sigma_4) + \beta_h (\sigma _1^\dagger\sigma_4 + \sigma_3^\dagger\sigma_2) + \text{H.c.}]
+\end{eqnarray}
+donde $\sigma_i = |0\rangle\langle i|$
+
+El sistema es descrito por un hamiltoniano conformado por sub-hamiltonianos que describen sub-sistemas, primero se describiran los subsistemas y finalmente el sistema. El sistema consiste de una cavidad con un punto cuantico incrustado, aqui se consideran 4 posibilidades de espin, bombeado coherentemente por pulsos, un sub-hamiltoniano que representa la interaccion electr\'on fon\'on y un sub-hamiltoniano que representa la interaccion del campo magn\'etico con el punto cuantico.
+
+\begin{equation}
+	H_\text{cav} = \omega_b b^\dagger b
+\end{equation}
+
+\begin{equation}
+	H_\text{punto} = \omega_x \sum_{i = 1}^{2} \sigma_{i,i} + \omega_d \sum_{i = 3}^{4} \sigma_{i,i} + \tfrac{1}{2} (\delta_1 \sigma_{1, 2} + \delta_2 \sigma_{3, 4} + \text{h. c.})
+\end{equation}
+
+\begin{equation}
+	H_\text{l\'as} = \Omega_1 \sigma_{0, 1} + \Omega_2 \sigma_{0, 2} + \text{h. c.}
+\end{equation}
+
+\begin{multline}
+	H_\text{el-fon} = \Big\{\frac{g}{\sqrt{2}} [(1 + i)(\sigma_{1, 3} + \sigma_{1, 4}) + (1 - i)(\sigma_{2, 3} + \sigma_{2, 4})]\\ + g \big[\sum_{i = 1}^{2} \sigma_{i, i} + i (\sigma_{1, 2} - \sigma_{2, 1})\big] \Big\}(b^\dagger + b) + \text{h. c.}
+\end{multline}
+
+\begin{multline}
+	H_\text{mag} = \beta_+ (\sigma_{1, 1} - \sigma_{2, 2}) + \beta_- (\sigma_{4, 4} - \sigma_{3, 3}) + \alpha B^2 \sum_{i = 1}^{4} \sigma_{i, i}\\ + (\beta_e (\sigma_{1, 3} + \sigma_{2, 4}) + \beta_h (\sigma_{1, 4} + \sigma_{2, 3}) + \text{h. c.})
+\end{multline}
+$\beta_+ = \tfrac{1}{2} \mu_B (g_{ez} + g_{hz}) B \sin\theta$, $\beta_- = \tfrac{1}{2} \mu_B (g_{ez}-g_{hz}) B \sin\theta$, $\beta_e = \tfrac{1}{2} g_{ex} \mu_B B \cos\theta$,  $\beta_h = \tfrac{1}{2} g_{hx} \mu_B B \cos\theta$, 
+
+\begin{equation}
+	H = H_\text{cav} + H_\text{punto} + H_\text{l\'as} + H_\text{el-fon} + H_\text{mag}
+\end{equation}
+
+% \section{Resultados}
+El Hamiltoniano visto desde los subsistemas es el siguiente
+\begin{equation}
+	H = H_\text{cav} + H_\text{punto} + H_\text{l\'as} + H_\text{el-fon} + H_\text{mag}
+\end{equation}
+
+Otra forma de verlo es
+\begin{equation}
+	H = H_0 + H_\text{int}
+\end{equation}
+
+Por lo tanto,
+\begin{equation}
+	H_0 = (\omega_\text{eff} + \beta_+)\sigma_{11} + (\omega_\text{eff} - \beta_+)\sigma_{22} + (\omega_\text{eff} - \delta_0 - \beta_-)\sigma_{33} + (\omega_\text{eff} - \delta_0 + \beta_-)\sigma_{44} + \omega_b b^\dagger b 
+\end{equation}
+con $\omega_\text{eff} = \omega_\text{x} + \alpha B^2$.
+
+\begin{eqnarray}
+	H_\text{int} &=& \Big\{ \delta_1 \sigma_{12} + \delta_2 \sigma_{34} + \sum_{j=1}^2 \Omega_j e^{i\omega_\text{L} t} \sigma_{jv} + \beta_e (\sigma_{13} + \sigma_{24}) + \beta_h (\sigma_{14} + \sigma_{23}) + g_\text{bb} \sum_{j=1}^2 \sigma_{jj} b^\dagger \nonumber \\ &+& \big[ ig_\text{bb}\sigma_{12} + \tfrac{(1+i)}{\sqrt{2}} g_\text{bd} \sum_{j=3}^4 (\sigma_{1j} - i\sigma_{2j}) \big](b^\dagger + b) + \text{h. c.} \Big\}
+\end{eqnarray}
+
+El Hamiltoniano en el marco rotante es (ver apéndice \ref{ap:marcoRotante})
+\begin{equation}
+	H'_0 = (\omega'_\text{eff} + \beta_+)\sigma_{11} + (\omega'_\text{eff} - \beta_+)\sigma_{22} + (\omega'_\text{eff} - \delta_0 - \beta_-)\sigma_{33} + (\omega'_\text{eff} - \delta_0 + \beta_-)\sigma_{44} + \omega_b b^\dagger b
+\end{equation}
+con $\omega'_\text{eff} = \omega_\text{x} - \omega_\text{L} + \alpha B^2 = \Delta + \alpha B^2$
+
+\begin{eqnarray}
+	H'_\text{int} &=& \Big\{ \delta_1 \sigma_{12} + \delta_2 \sigma_{34} + \sum_{j=1}^2 \Omega_j \sigma_{jv} + \beta_e (\sigma_{13} + \sigma_{24}) + \beta_h (\sigma_{14} + \sigma_{23}) + g_\text{bb} \sum_{j=1}^2 \sigma_{jj} b^\dagger \nonumber \\ 
+	&+& \big[ ig_\text{bb}\sigma_{12} + \tfrac{(1+i)}{\sqrt{2}} g_\text{bd} \sum_{j=3}^4 (\sigma_{1j} - i\sigma_{2j}) \big](b^\dagger + b) + \text{h. c.} \Big\}
+\end{eqnarray}
+
+\chapter{Hamiltoniano}
+\begin{align}
+	H(t) &= \omega_c c^\dagger c + \omega_b(\sigma_{11} + \sigma_{22}) + \omega_d(\sigma_{33} + \sigma_{44}) + \frac{\delta_b}{2}(\sigma_{12} + \sigma_{21}) + \frac{\delta_d}{2}(\sigma_{34} + \sigma_{43}) \nonumber \\
+	&+ \Omega_1(e^{-i\omega_L t}\sigma_{10} + e^{i\omega_L t}\sigma_{01}) + \Omega_2(e^{-i\omega_L t}\sigma_{20} + e^{i\omega_L t}\sigma_{02}) \nonumber \\
+	&+ \Big\{ \frac{g_{bd}}{\sqrt{2}} \big[(1+i)(\sigma_{13} + \sigma_{14}) + (1-i)(\sigma_{31} + \sigma_{41}) + (1-i)(\sigma_{23} + \sigma_{24})\nonumber \\
+	&+ (1+i)(\sigma_{32} + \sigma_{42}) \big] + 2g_{bb} \big[\sigma_{11} + \sigma_{22} + i(\sigma_{12} - \sigma_{21}) \big] \Big\}(b^\dagger + b) \nonumber \\
+	&+ \frac{\mu_B B}{2} \Big\{ \sin\theta \big[(g_{ez} + g_{hz})(\sigma_{11} - \sigma_{22}) + (g_{ez} - g_{hz})(\sigma_{44} - \sigma_{33}) \big] \nonumber \\
+	&+ \cos\theta \big[ g_{ex}(\sigma_{13} + \sigma_{31} + \sigma_{24} + \sigma_{42}) + g_{hx}(\sigma_{14} + \sigma_{41} + \sigma_{32} + \sigma_{23}) \big] \Big\} \nonumber \\
+	&+ \alpha B^2(\sigma_{11} + \sigma_{22} + \sigma_{33} + \sigma_{44})
+\end{align}
+
+\chapter{Transformación al marco rotante} \label{ap:marcoRotante}
+El objetivo es transformar el Hamiltoniano al marco rotante para eliminar su dependencia temporal.
+
+El operador número de excitación es
+\begin{equation}
+    \hat{N}_\text{ex}=\sum_{j=1}^4\hat{\sigma}_{jj}
+\end{equation}
+Como se puede observar el operador numero de excitación no incluye los fonones por un argumento físico. Los fonones tienen una energía despreciable con respecto a los excitones.
+
+El operador unitario que me permite realizar la transformación es:
+\begin{align}
+    \hat{U} &= \exp[i\omega_Lt \hat{N}_\text{ex}] = \exp[i\omega_Lt \textstyle{\sum_{j=1}^4\hat{\sigma}_{jj}}]
+\end{align}
+la transformación se realiza $H = U \tilde{H}(t) U^\dagger - \omega_L N_\text{ex}$.
+
+A continuacion los sub Hamiltonianos de los subsistemas
+\begin{align}
+    \tilde{H}_\text{cav} &= \omega_c c^\dagger c\\
+    \tilde{H}_\text{QD} &= \omega_b \sum_{j=1}^{2}\sigma_{jj} + \omega_d \sum_{j=3}^{4}\sigma_{jj} + (\delta_b\sigma_{12} + \delta_d\sigma_{34} + \text{h. c.})\\
+    \tilde{H}_\text{l\'as}(t) &= \Omega_1 e^{-i\omega_L t} \sigma_{10} + \Omega_2 e^{-i\omega_L t} \sigma_{20} + \text{h. c.}\\
+    \tilde{H}_\text{mag} &= \beta_+ (\sigma_{11} - \sigma_{22}) + \beta_- (\sigma_{44} - \sigma_{33}) + \alpha B^2 \sum_{i = 1}^{4} \sigma_{ii} + [\beta_e (\sigma_{13} + \sigma_{24}) + \beta_h (\sigma_{14} + \sigma_{23})\\
+    &+ \text{h. c.}]\\
+    \tilde{H}_\text{el-phon} &= \big[ g_{bb} \sum_{j=1}^2 \sigma_{jj} + (ig_{bb}\sigma_{12} + (1+i) g_{bd} \sum_{j=3}^4 (\sigma_{1j} - i\sigma_{2j})/\sqrt{2} + \text{h. c.}) \big](b^\dagger + b)
+\end{align}
+y el sistema de estudio es
+\[
+\fbox{$\tilde{H}(t) = \tilde{H}_\text{cav} + \tilde{H}_\text{QD} + \tilde{H}_\text{l\'as}(t) + \tilde{H}_\text{mag} + \tilde{H}_\text{el-phon}$}
+\]
+\chapter{Estudio de los sub Hamiltonianos con excitones}
+A continuación hablaremos en el contexto de $\hbar=1$, por lo tanto, las unidades de frecuencias serán las mismas de las energías y de cada uno de los sub sistemas conformantes, además, del estudio simultaneo de algunos subsistemas 
+\section{Punto cuántico}
+\begin{align*}
+    H_\text{QD} &=  \Delta \sum_{j=1}^{2}\sigma_{jj} + (\Delta - \delta_0) \sum_{j=3}^{4}\sigma_{jj} + (\delta_b\sigma_{12} + \delta_d\sigma_{34} + \text{h. c.})
+\end{align*}
+donde $\sigma_{ij} =|i\rangle\langle j|$ expresado en la base desnuda (con $i$ y $j$ siendo $X_{b1}$, $X_{b2}$, $X_{d1}$, $X_{d2}$) y, en el contexto de $\hbar = 1$, $\omega_X(\omega_d)$ es la energía de excitación de los excitones brillantes (oscuros), $\omega_L$ la energía del láser externo y aparece un corrimiento en la energía debido a la transformación al marco rotante. En la mayoría de los QD semiconductores, la interacción de intercambio juega un papel importante \parencite{Bayer2002}, divide los excitones oscuros y brillantes por $\delta_0$,  $\omega_d = \omega_X -\delta_0$, característico de los puntos cuánticos semiconductores donde los excitones oscuros y brillantes tienen una división de energía $\delta_0$, además, esta interacción de intercambio mezcla los estados brillantes con acoplamiento $\delta_X$, lo que conduce a un estado de exciton brillante polarizado lineal, también, esta interacción de intercambio mezcla el estado con acoplamiento $\delta_d$. 
+
+Los valores tomados para la división de los excitones, brillantes y oscuros, y la interacción de regla de selección, es decir, mutuamente excluyentes debido a su configuración de espín (interacción entre brillantes e interacción entre oscuros) son tomados de los modelos fenomenológicos reportados en los papers, por lo tanto, tomados de los experimentos. Esto es típico cuando se usan teorías no efectivas como la actual\footnote{Estos valores también se pueden obtener teoricamente de teorías de primeros principios, como las de Con Luttinger donde se reportan los respectivos valores.}
+
+Los estados propios del QD son $\ket{v}$, $\ket{X_{b\pm}} = (\ket{X_{b1}} \pm \ket{X_{b2}})/\sqrt{2}$ y $\ket{X_{d\pm}} = (\ket{X_{d1}} \pm \ket{X_{d2}})/\sqrt{2}$ con valores propios correspondientes $E_v = 0$, $E_{X_{b\pm}} = \omega_X - \omega_L \pm \delta_X$ y $E_{X_{d\pm}} = \omega_d - \omega_L \pm \delta_d$.
+
+El operador de materia se puede expresar en otra base así $\sigma_{ij} = \mathbb{I} \cdot \sigma_{ij} \cdot \mathbb{I}$, por lo tanto, en la base vestida es
+\begin{equation}
+\sigma_{ij}= 
+% \mathbbm{1} \cdot \sigma_{ij} \cdot \mathbbm{1} = 
+\sum_k |k\rangle\langle k|(|i\rangle \langle j|) \sum_l |l\rangle\langle l| = \sum_{k,l} c_{ki} c_{jl} |k\rangle\langle l| 
+\end{equation}
+con $c_{ki} = \langle k|i\rangle$ y $c_{jl} = \langle j|l\rangle$. Los índices $k$ y $l$ representan estados de la base vestida, en cambio, los índices $i$ y $j$ representan estados de la base desnuda.
+\section{Bombeo coherente}
+$$H_\text{l\'as} = \Omega_1 \sigma_{10} + \Omega_2 \sigma_{20} + \text{h. c.}$$
+donde $\sigma_{10}=|X_{b1}\rangle\langle v|$  y $\sigma_{20}=|X_{b2}\rangle\langle v|$, es decir, un electrón en el estado de valencia es excitado y se genera un exciton ya sea brillante 1 o brillante 2, dependiendo de la polarización con la que se bombea. $\Omega_1 (\Omega_2)$ es la eficiencia o calidad de transferencia de energía entre sistemas o la constante de Rabi del modelo semiclasico donde se tiene transición  únicamente entre estados de materia, es decir, el campo considerado no esta cuantizado.
+
+En este tipo de sistemas, se pueden usar laseres clásicos contrapropagantes o un láser polarizado linealmente para garantizar que las dos polarizaciones efectivamente existen en el sistema.
+
+Los estados propios del bombeo coherente son $|\Omega_\pm\rangle = \big[\ket{v} \pm (\Omega_1 \ket{X_{b1}} + \Omega_2 \ket{X_{b2}})/(\Omega_1^2 + \Omega_2^2)^{1/2} \big]/\sqrt{2}$, $\ket{X_{di}}$ con $i=1,2$ y $\ket{\Omega_b} = (\Omega_2 \ket{X_{b1}} - \Omega_1 \ket{X_{b2}})/(\Omega_1^2 + \Omega_2^2)^{1/2}$ con valore propios correspondientes $E_{\Omega\pm} = \pm(\Omega_1^2+\Omega_2^2)^{1/2}$ y $E_{Xdi} = E_{\Omega b} = 0$.
+\section{Campo magnético externo}
+\begin{align*}
+	H_\text{mag} =& \beta_+ (\sigma_{1, 1} - \sigma_{2, 2}) + \beta_- (\sigma_{4, 4} - \sigma_{3, 3}) + \alpha B^2 \sum_{i = 1}^{4} \sigma_{i, i}\\ &+ [\beta_e (\sigma_{1, 3} + \sigma_{2, 4}) + \beta_h (\sigma_{1, 4} + \sigma_{2, 3}) + \text{h. c.}]
+\end{align*}
+donde $\beta_+ = \mu_B (g_{ez} + g_{hz}) B \sin(\theta)/2$, $\beta_- = \mu_B (g_{ez}-g_{hz}) B \sin(\theta)/2$, $\beta_e = g_{ex} \mu_B B \cos(\theta)/2$, $\beta_h = g_{hx} \mu_B B \cos(\theta)/2$ son los coeficientes $\beta$ generados por la la activación de la magnitud del campo magnético. Como se puede observar los coeficientes $\beta_\pm$ son generados por la contribución vertical del campo magnético, en este caso, un campo magnético externo lineal en dirección $z$ y los coeficientes $\beta_{e(h)}$ contribuyen en la componente horizontal (componente $x$) del campo magnético externo. Los factores giromagneticos, $g_{ex}$, $g_{hx}$, $g_{ez}$, y $g_{ez}$, se suponen constantes ante la variación de la magnitud del campo magnético externo\footnote{en situaciones reales es posible que ante campos magneticos muy intensos se logre generar cambios giromagneticos}
+
+El corrimiento diamagnético $\alpha$ se supone invariante ante la magnitud del campo magnético y el termino $\alpha B^2$ da cuenta del corrimiento energético tipo efecto Zeeman.
+
+Para un estudio practico de este sistema, se consideraran dos configuraciones, de Voigt y Faraday, con $\theta=0$ y $\theta=\pi/2$, respectivamente. 
+
+Los valores propios del campo magnético en una configuración de \textbf{Voigt} son $E_v=0$, $E_{Bx_+\mp} = \alpha B^2 \mp \mu_B B(g_{ex}+g_{hx})/2$, $E_{Bx_-\mp} = \alpha B^2 \mp \mu_B B (g_{ex} - g_{hx})$ con vectores propios $\ket{v}$, $\ket{B_{x_+\mp}} = [(\ket{X_{b1}}+\ket{X_{b2}}) \mp (\ket{X_{d1}}+\ket{X_{d2}})]/2 = (\ket{X_{b+}} \mp \ket{X_{d+}})/\sqrt{2}$, $\ket{B_{x_-\mp}} = [(\ket{X_{b1}}-\ket{X_{b2}}) \mp (\ket{X_{d1}}-\ket{X_{d2}})]/2 = (\ket{X_{b-}} \mp \ket{X_{d-}})/\sqrt{2}$, respectivamente.
+
+Los valores propios del campo magnético en una configuración de \textbf{Faraday} son $E_v=0$, $E_{Bz_+\mp} = \alpha B^2 \mp \mu_B B(g_{ez}+g_{hz})/2$, $E_{Bz_-\mp} = \alpha B^2 \mp \mu_B B (g_{ez} - g_{hz})$ con vectores propios $\ket{v}$, $\ket{B_{z_+-}} = \ket{X_{b2}}$, $\ket{B_{z_++}} = \ket{X_{b1}}$, $\ket{B_{z_--}} = \ket{X_{d2}}$ y $\ket{B_{z_-+}} = \ket{X_{d1}}$, respectivamente.
+
+Las componentes de los estados propios dependen del ángulo y no de la magnitud del campo magnético. Una vez se tiene una contribución $\cos(\theta)\neq 0$ 0 $\sin(\theta)\neq 0$, las componentes, con excepción del estado de valencia, dependen de los factores giromagneticos y el magneton de Bohr (calculo no mostrado), es decir, no depende de la magnitud del campo magnético. Por otro lado, las energías dependen del ángulo (con las constantes giromagneticas y el magneton de Bohr) tanto como de la  magnitud del campo magnético, donde se activa el corrimiento Zeeman con el termino $\alpha B^2$. Las energías en función de $\theta$ son
+\begin{align*}
+    E_v &= 0\\
+    E_{B_-\mp} &= \alpha B^2 \mp \tfrac{1}{2} B \big\{\mu_B^2 \big[\cos ^2(\theta ) \left(g_{ex}^2+g_{hx}^2\right)+\sin ^2(\theta ) \left(g_{ez}^2+g_{hz}^2\right) \big] \\
+    &- 2 \big[\mu_B^4 \left(g_{ex}^2 \cos ^2(\theta )+g_{ez}^2 \sin ^2(\theta )\right) \left(g_{hx}^2 \cos ^2(\theta )+g_{hz}^2 \sin ^2(\theta )\right) \big]^{1/2} \big \}^{1/2}\\
+    E_{B_+\mp} &= \alpha B^2 \mp \tfrac{1}{2} B \big\{\mu_B^2 \big[\cos ^2(\theta ) \left(g_{ex}^2+g_{hx}^2\right)+\sin ^2(\theta ) \left(g_{ez}^2+g_{hz}^2\right) \big] \\
+    &+ 2 \big[\mu_B^4 \left(g_{ex}^2 \cos ^2(\theta )+g_{ez}^2 \sin ^2(\theta )\right) \left(g_{hx}^2 \cos ^2(\theta )+g_{hz}^2 \sin ^2(\theta )\right) \big]^{1/2} \big \}^{1/2}
+\end{align*}
+\section{Punto cuántico y bombeo coherente}
+De ahora en adelante se establece $\omega_d = \omega_X - \delta_0$ y $\omega_X - \omega_L = \Delta$, se tiene que
+$$H_\text{QD-l\'as} = H_\text{QD} + H_\text{l\'as}$$
+Debido a que $0<\delta_X \ll 1$ y si suponemos $\Omega_2 = 0$ (por simplicidad) el Hamiltoniano tiene vectores propios (haciendo una expansión en series para $\delta_X$ alrededor de 0 y truncando hasta orden 2)
+\begin{align*}
+  \ket{X_\pm} &= \bigg\{\Big[((\Delta ^2+4 \Omega _1^2)^{1/2} \pm \Delta)/\sqrt{2} \mp [2 \sqrt{2} \delta_X^2 \Omega_1^2 (2(\Delta ^2+4 \Omega _1^2)^{1/2}+\Delta)]/\mathcal{R}_\pm^2\Big]\ket{v}\\ 
+   &\mp \Big[\sqrt{2} \Omega_1 + [\sqrt{2} \delta_X^2 \Delta  \Omega _1 (3(\Delta ^2 + 4 \Omega_1^2)^{1/2}+\Delta)]/\mathcal{R}_\pm^2 \Big]\ket{X_{b1}}\\ 
+   &+ \Big[[\delta _1 ((\Delta^2 + 4\Omega_1^2)^{1/2} \mp \Delta)]/\sqrt{2}\Big]\ket{X_{b2}} \bigg\}/\mathcal{R}_\pm^{1/2}
+\end{align*}
+con $\mathcal{R}_\pm = \Delta  (\Delta \pm (\Delta ^2+4 \Omega _1^2)^{1/2})+4 \Omega _1^2$
+\begin{align*}
+   \ket{X_{b\Omega}} &= \big\{ \delta _1 \Omega_1^3 \ket{v} + \delta_X \Delta \Omega_1^2 \ket{X_{b1}} - \big[\Omega_1^4 - \delta _1^2 \left(\Delta ^2+\Omega _1^2\right)/2 \big]\ket{X_{b2}} \big\} /\Omega_1^4\\
+   \ket{X_{d\pm}} &= (\ket{X_{d1}} \pm \ket{X_{d2}})/\sqrt{2}
+\end{align*}
+con autovalores respectivamente $E_{X\pm} = (\Delta \mp (\Delta^2 + 4\Omega_1^2)^{1/2})(\delta _1^2/\mathcal{R}_\pm + 1/2)$, $E_{Xb\Omega} = \Delta(\Omega_1^2 - \delta_X^2)/\Omega_1^2$ y $E_{Xd\pm} = \Delta - \delta_0 \pm \delta_d$.
+\section{Punto cuántico y campo magnético externo}
+\begin{equation*}
+    H_\text{QD-mag} = H_\text{QD} + H_\text{mag}
+\end{equation*}
+Los valores propios en la configuración de \textbf{Voigt} son
+\begin{align*}
+    E_v &= 0\\
+    E_{+\mp} &= \left(\mp\sqrt{B^2 \mu _{\text{B}}^2 \left(g_{\text{ex}}+g_{\text{hx}}\right){}^2+\left(\delta _0+\delta _1-\delta _2\right){}^2}+2 \alpha  B^2-\delta _0+\delta _1+\delta _2+2 \Delta \right)/2\\
+    E_{-\mp} &= \left(\mp\sqrt{B^2 \mu _{\text{B}}^2 \left(g_{\text{ex}}-g_{\text{hx}}\right){}^2+\left(\delta _0-\delta _1+\delta _2\right){}^2}+2 \alpha  B^2-\delta _0-\delta _1-\delta _2+2 \Delta \right)/2
+\end{align*}
+
+Los valores propios en la configuración de \textbf{Faraday} son
+\begin{align*}
+    E_v &= 0\\
+    E_{-\mp} &= \mp\frac{1}{2} \sqrt{B^2 \mu _{\text{B}}^2 \left(g_{\text{ez}}-g_{\text{hz}}\right){}^2+4 \delta _2^2}+\alpha  B^2-\delta _0+\Delta\\
+    E_{+\mp} &= \mp\frac{1}{2} \sqrt{B^2 \mu _{\text{B}}^2 \left(g_{\text{ez}}+g_{\text{hz}}\right){}^2+4 \delta _1^2}+\alpha  B^2+\Delta
+\end{align*}
+los vectores propios
+\chapter{Tansiciones del Hamiltoniano}
+\section{Base desnuda}
+Veamos como se comportan las transiciones permitidas entre el estado exciton brillante 1 y cualquier otro estado
+\begin{align*}
+    \bra{v,n}H\ket{X_{b1},n} &= \Omega_1\\
+    \bra{X_{b2},n-1}H\ket{X_{b1},n} &= -i \sqrt{n} g_\text{bb}\\
+    \bra{X_{b2},n}H\ket{X_{b1},n} &= \delta_\text{b}\\
+    \bra{X_{b2},n+1}H\ket{X_{b1},n} &= -i \sqrt{n+1} g_\text{bb}\\
+    \bra{X_{d1},n-1}H\ket{X_{b1},n} &= (1-i)\sqrt{n} g_\text{bd}/\sqrt{2}\\
+    \bra{X_{d1},n}H\ket{X_{b1},n} &= B \mu_\text{B} g_\text{ex} \cos(\theta)/2\\
+    \bra{X_{d1},n+1}H\ket{X_{b1},n} &= (1-i)\sqrt{n+1}g_\text{bd}/\sqrt{2}\\
+    \bra{X_{d2},n-1}H\ket{X_{b1},n} &= (1-i)\sqrt{n} g_\text{bd}/\sqrt{2}\\
+    \bra{X_{d2},n}H\ket{X_{b1},n} &= B \mu_\text{B} g_\text{hx} \cos(\theta)/2\\
+    \bra{X_{d2},n+1}H\ket{X_{b1},n} &= (1-i)\sqrt{n+1}g_\text{bd}/\sqrt{2}
+\end{align*}
+como se puede observar la transición del exciton oscuro 1 al exciton brillante 1 es activada por encender un campo magnético externo.
+
+Las transiciones permitidas para el exciton brillante 2 (sin repetir) son
+\begin{align*}
+    \bra{v,n}H\ket{X_{b2},n} &= \Omega_2\\
+    \bra{X_{d1},n-1}H\ket{X_{b2},n} &= (1+i)\sqrt{n} g_\text{bd}/\sqrt{2}\\
+    \bra{X_{d1},n}H\ket{X_{b2},n} &= B \mu_\text{B} g_\text{hx} \cos(\theta)/2\\
+    \bra{X_{d1},n+1}H\ket{X_{b2},n} &= (1+i)\sqrt{n+1}g_\text{bd}/\sqrt{2}\\
+    \bra{X_{d2},n-1}H\ket{X_{b2},n} &= (1+i)\sqrt{n} g_\text{bd}/\sqrt{2}\\
+    \bra{X_{d2},n}H\ket{X_{b2},n} &= B \mu_\text{B} g_\text{ex} \cos(\theta)/2\\
+    \bra{X_{d2},n+1}H\ket{X_{b2},n} &= (1+i)\sqrt{n+1}g_\text{bd}/\sqrt{2}
+\end{align*}
+la transición del exciton oscuro 1 al brillante 2 es permitida cuando se active un campo magnético externo.
+
+La transiciones permitidas (sin repetir las anteriores) entre el estado exciton oscuro 1 y cualquier otro estado es
+\begin{align*}
+    \bra{X_{d2},n}H\ket{X_{d1},n} = \delta_\text{d}
+\end{align*}
+
+Ya se han mencionado todas las transiciones permitidas para el estado exciton oscuro 2.
+
+Las transiciones no permitidas son $\bra{v,m}H\ket{X_{d1},n}$ y $\bra{v,m}H\ket{X_{d2},n}$.
+
+Las transiciones que son activadas por el campo magnético son
+\begin{align*}
+ \bra{X_{d1},n}H\ket{X_{b1},n}\\
+ \bra{X_{d2},n}H\ket{X_{b1},n}\\
+ \bra{X_{d1},n}H\ket{X_{b2},n}\\
+ \bra{X_{d2},n}H\ket{X_{b2},n}
+\end{align*}
+Cabe resaltar que todas estas transiciones ya eran permitidas aunque se debia crear o destruir un fonon.
+\section{Base vestida}
+Debido a que el punto cuantico tiene interacciones en si mismo, esto hace que las transiciones del punto no sean entre los estados desnudos sino mas bien entre los estados vestidos por la interaccion. Por lo tanto, a continuacion revisamos que transiciones son permitidas desde el Hamiltoniano y cuales no.
+
+Veamos que sucede con la transición de un exciton oscuro antisimetrico con $n$-fonones a cualquier otro estado
+\begin{align*}
+    \bra{X_{b-},n} H \ket{X_{d-},n} &= \tfrac{1}{2} B \mu _{\text{B}} \cos (\theta ) \left(g_{\text{ex}}-g_{\text{hx}}\right)\\
+    \bra{X_{d+},n} H \ket{X_{d-},n} &= -\tfrac{1}{2} B \mu _{\text{B}} \sin (\theta ) \left(g_{\text{ez}}-g_{\text{hz}}\right)
+\end{align*}
+las otras transiciones son nulas, por lo tanto, sin campo magnético el estado de materia exciton oscuro antisimetrico  no puede ser accesible por ningún otro estado. 
+
+A continuación las transiciones permitidas de un exciton oscuro simétrico con $n$-fonones a cualquier otro estado (sin repetir la del calculo anterior)
+\begin{align*}
+    \bra{X_{b+},n-1} H \ket{X_{d+},n} &= \sqrt{2n} g_\text{bd}\\
+    \bra{X_{b+},n} H \ket{X_{d+},n} &= B \mu_\text{B} \cos(\theta ) (g_\text{ex}+g_\text{hx})/2\\
+    \bra{X_{b+},n+1} H \ket{X_{d+},n} &= \sqrt{2(n+1)} g_\text{bd}\\
+    \bra{X_{b-},n-1} H \ket{X_{d+},n} &= i \sqrt{2n} g_\text{bd}\\
+    \bra{X_{b-},n+1} H \ket{X_{d+},n} &= i \sqrt{2(n+1)} g_\text{bd}
+\end{align*}
+como se puede observar se puede transitar hacia un exciton oscuro simetrico desde un exciton brillante simetrico por medio de la interacción electron fonon y el campo magnetico. La transicion es posible al crear o al destruir un fonon debido a la interacción electron fonon, tambien es posible la transicion sin necesidad del proceso de creación o destrucción del fonon activando un campo magnetico externo. Contrario a la transicion entre un exciton brillante antisimetrico y un exciton oscuro simetrico, el campo magnetico no activa esta transicion, unicamente es posible por la interaccion electron fonon.
+
+Veamos como se transita a un exciton brillante antisimetrico a traves de cualquier otro estado (sin repetir los procesos anteriores)
+\begin{align*}
+    \bra{v,n} H \ket{X_{b-},n} &= (\Omega_1-\Omega_2)/\sqrt{2}\\
+    \bra{X_{b+},n-1} H \ket{X_{b-},n} &= -i \sqrt{n} g_\text{bb}\\
+    \bra{X_{b+},n} H \ket{X_{b-},n} &= B \mu_\text{B} \sin(\theta) (g_\text{ez}+g_\text{hz})/2\\
+    \bra{X_{b+},n+1} H \ket{X_{b-},n} &= -i \sqrt{n+1} g_\text{bb}
+\end{align*}
+similarmente al caso anterior se observa que el campo magnético permite la transición sin necesidad de la creación o destrucción de fonones.
+
+Para transitar a un estado exciton brillante simétrico desde cualquier otro estado (sin repetir)
+\begin{align*}
+    \bra{v,n} H \ket{X_{b+},n} &= (\Omega_1+\Omega_2)/\sqrt{2}
+\end{align*}
+
+Las transiciones no permitidas son
+\begin{align*}
+    \bra{X_{d-},m}H\ket{X_{b+},n}\\
+    \bra{v,m}H\ket{X_{d+},n}\\
+    \bra{v,m}H\ket{X_{d-},n}
+\end{align*}
+Las transiciones que activa el campo magnético son
+\begin{align*}
+    \bra{X_{b-},n} H \ket{X_{d-},n}\\
+    \bra{X_{d+},n} H \ket{X_{d-},n}\\
+    \bra{X_{b+},n} H \ket{X_{d+},n}\\
+    \bra{X_{b+},n} H \ket{X_{b-},n}
+\end{align*}
+A diferencia de la base desnuda las transiciones al exciton oscuro antisimetrico a partir del exciton brillante antisimetrico u oscuro simétrico únicamente son permitidas por efecto del campo magnético, las otras dos que activa el campo magnetico ya eran permitidas por la interaccion electron fonon, en este caso, la interacción entre excitones brillantes y oscuros con la vibración de la red. 
+\chapter{Ecuación maestra}
+\begin{align}
+    \dot{\rho} = i[\rho, H] + \kappa \mathcal{L}(c) + \gamma_b \sum_{j=1}^2 \mathcal{L}(\sigma_{vj}) + \gamma_d \sum_{j=3}^4 \mathcal{L}(\sigma_{vj}) + \gamma_\phi \sum_{j=1}^4 \mathcal{L}(\sigma_{jj})
+\end{align}
+donde $\mathcal{L}(O)$ es el superoperador de Lindblad  aplicado al operador $O$. Su forma completa es $\mathcal{L}(O) = O\rho O^\dagger - \{\rho, O^\dagger O\}/2$, con $\{\rho,O^\dagger O\}$ el anticonmutador de los operadores $\rho$ y $O^\dagger O$.
+\end{document}
