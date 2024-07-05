@@ -3062,45 +3062,7 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">UnreadPhdthesis.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1" intorder="1">Reitzenstein2012</bcf:citekey>
-    <bcf:citekey order="2" intorder="1">Bayer2001</bcf:citekey>
-    <bcf:citekey order="3" intorder="1">Reithmaier2004</bcf:citekey>
-    <bcf:citekey order="4" intorder="1">Michler2000</bcf:citekey>
-    <bcf:citekey order="5" intorder="1">Jimenez2017</bcf:citekey>
-    <bcf:citekey order="6" intorder="1">Jimenez2017</bcf:citekey>
-    <bcf:citekey order="7" intorder="1">Reithmaier2004</bcf:citekey>
-    <bcf:citekey order="8" intorder="1">Jimenez2017</bcf:citekey>
-    <bcf:citekey order="9" intorder="1">Poem2010</bcf:citekey>
-    <bcf:citekey order="10" intorder="1">Jimenez2017</bcf:citekey>
-    <bcf:citekey order="11" intorder="1">Poem2010</bcf:citekey>
-    <bcf:citekey order="12" intorder="1">Bayer2000</bcf:citekey>
-    <bcf:citekey order="13" intorder="1">Bin2020</bcf:citekey>
-    <bcf:citekey order="14" intorder="1">Kubanek2008</bcf:citekey>
-    <bcf:citekey order="14" intorder="2">Ota2011</bcf:citekey>
-    <bcf:citekey order="15" intorder="1">Gauthier1992</bcf:citekey>
-    <bcf:citekey order="16" intorder="1">DAngelo2001</bcf:citekey>
-    <bcf:citekey order="17" intorder="1">Afek2010</bcf:citekey>
-    <bcf:citekey order="18" intorder="1">Muñoz2014</bcf:citekey>
-    <bcf:citekey order="19" intorder="1">Vargas2022</bcf:citekey>
-    <bcf:citekey order="20" intorder="1">Borri2001</bcf:citekey>
-    <bcf:citekey order="21" intorder="1">Wigger2021</bcf:citekey>
-    <bcf:citekey order="21" intorder="2">Kettler2021</bcf:citekey>
-    <bcf:citekey order="22" intorder="1">Gustafsson2014</bcf:citekey>
-    <bcf:citekey order="22" intorder="2">Wan2021</bcf:citekey>
-    <bcf:citekey order="23" intorder="1">Bin2020</bcf:citekey>
-    <bcf:citekey order="24" intorder="1">Zhang2018</bcf:citekey>
-    <bcf:citekey order="25" intorder="1">Ask2019</bcf:citekey>
-    <bcf:citekey order="26" intorder="1">Bin2020</bcf:citekey>
-    <bcf:citekey order="27" intorder="1">Kabuss2012</bcf:citekey>
-    <bcf:citekey order="28" intorder="1">Lemonde2018</bcf:citekey>
-    <bcf:citekey order="29" intorder="1">Schütz2017</bcf:citekey>
-    <bcf:citekey order="30" intorder="1">Hartke2018</bcf:citekey>
-    <bcf:citekey order="31" intorder="1">Lupke2022</bcf:citekey>
-    <bcf:citekey order="32" intorder="1">Chu2018</bcf:citekey>
-    <bcf:citekey order="33" intorder="1">Toyoda2015</bcf:citekey>
-    <bcf:citekey order="34" intorder="1">Zhang2018</bcf:citekey>
-    <bcf:citekey order="35" intorder="1">Arrangoiz2018</bcf:citekey>
-    <bcf:citekey order="36" intorder="1">Bin2020</bcf:citekey>
+    <bcf:citekey order="1" intorder="1">Vargas2022</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">

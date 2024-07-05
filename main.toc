@@ -14,11 +14,11 @@
 \contentsline {subsubsection}{\nonumberline Análisis Hamiltoniano}{8}{subsubsection*.7}%
 \contentsline {subsubsection}{\nonumberline Dinámica usando un láser pulsado}{9}{subsubsection*.11}%
 \contentsline {subsubsection}{\nonumberline Dinámica usando un campo láser continuo}{10}{subsubsection*.14}%
-\contentsline {section}{\numberline {4.2}Emisión bundle de $N$-fonones por medio del proceso de Stokes}{12}{section.4.2}%
+\contentsline {section}{\numberline {4.2}Emisión bundle de $N$-fonones por medio del proceso de Stokes}{11}{section.4.2}%
 \contentsline {subsubsection}{\nonumberline Dinámica del sistema cerrado}{12}{subsubsection*.17}%
 \contentsline {subsubsection}{\nonumberline Dinámica del sistema abierto: emisión bundle $N$-fonón}{13}{subsubsection*.20}%
 \contentsline {section}{\numberline {4.3}Oscilaciones gigante-Rabi de excitones oscuros sin campo magnético ...}{15}{section.4.3}%
-\contentsline {subsubsection}{\nonumberline Dinámica del sistema cerrado}{16}{subsubsection*.23}%
+\contentsline {subsubsection}{\nonumberline Dinámica del sistema cerrado}{15}{subsubsection*.23}%
 \contentsline {subsubsection}{\nonumberline Dinámica del sistema abierto}{17}{subsubsection*.27}%
 \contentsline {subsubsection}{\nonumberline Espectro de emisión}{17}{subsubsection*.29}%
 \contentsline {section}{\numberline {4.4}Estructura fina de excitones neutros y cargados en puntos cuánticos In(Ga)As / (Al)GaAs autoensamblados}{19}{section.4.4}%
@@ -52,22 +52,22 @@
 \contentsline {section}{\numberline {6.8}Teoría espectral}{31}{section.6.8}%
 \contentsline {chapter}{\numberline {7}Resultados}{32}{chapter.7}%
 \contentsline {section}{\numberline {7.1}Descomposici\'on espectral}{32}{section.7.1}%
-\contentsline {chapter}{\numberline {8}Análisis de resultados}{36}{chapter.8}%
-\contentsline {chapter}{Conclusiones}{37}{chapter*.77}%
-\contentsline {chapter}{Apéndices}{38}{chapter*.78}%
-\contentsline {chapter}{\numberline {A}Hamiltoniano del sistema reescrito}{39}{appendix.A}%
-\contentsline {chapter}{\numberline {B}Hamiltoniano}{42}{appendix.B}%
-\contentsline {chapter}{\numberline {C}Transformación al marco rotante}{43}{appendix.C}%
-\contentsline {chapter}{\numberline {D}Estudio de los sub Hamiltonianos con excitones}{44}{appendix.D}%
-\contentsline {section}{\numberline {D.1}Punto cuántico}{44}{section.D.1}%
-\contentsline {section}{\numberline {D.2}Bombeo coherente}{45}{section.D.2}%
-\contentsline {section}{\numberline {D.3}Campo magnético externo}{45}{section.D.3}%
-\contentsline {section}{\numberline {D.4}Punto cuántico y bombeo coherente}{46}{section.D.4}%
-\contentsline {section}{\numberline {D.5}Punto cuántico y campo magnético externo}{47}{section.D.5}%
-\contentsline {chapter}{\numberline {E}Tansiciones del Hamiltoniano}{48}{appendix.E}%
-\contentsline {section}{\numberline {E.1}Base desnuda}{48}{section.E.1}%
-\contentsline {section}{\numberline {E.2}Base vestida}{49}{section.E.2}%
-\contentsline {chapter}{\numberline {F}Ecuación maestra}{51}{appendix.F}%
-\contentsline {chapter}{Referencias}{55}{section*.79}%
+\contentsline {chapter}{\numberline {8}Análisis de resultados}{35}{chapter.8}%
+\contentsline {chapter}{Conclusiones}{36}{chapter*.77}%
+\contentsline {chapter}{Apéndices}{37}{chapter*.78}%
+\contentsline {chapter}{\numberline {A}Hamiltoniano del sistema reescrito}{38}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Hamiltoniano}{41}{appendix.B}%
+\contentsline {chapter}{\numberline {C}Transformación al marco rotante}{42}{appendix.C}%
+\contentsline {chapter}{\numberline {D}Estudio de los sub Hamiltonianos con excitones}{43}{appendix.D}%
+\contentsline {section}{\numberline {D.1}Punto cuántico}{43}{section.D.1}%
+\contentsline {section}{\numberline {D.2}Bombeo coherente}{44}{section.D.2}%
+\contentsline {section}{\numberline {D.3}Campo magnético externo}{44}{section.D.3}%
+\contentsline {section}{\numberline {D.4}Punto cuántico y bombeo coherente}{45}{section.D.4}%
+\contentsline {section}{\numberline {D.5}Punto cuántico y campo magnético externo}{46}{section.D.5}%
+\contentsline {chapter}{\numberline {E}Tansiciones del Hamiltoniano}{47}{appendix.E}%
+\contentsline {section}{\numberline {E.1}Base desnuda}{47}{section.E.1}%
+\contentsline {section}{\numberline {E.2}Base vestida}{48}{section.E.2}%
+\contentsline {chapter}{\numberline {F}Ecuación maestra}{50}{appendix.F}%
+\contentsline {chapter}{Referencias}{54}{section*.79}%
 \xpginauxfilefalse 
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

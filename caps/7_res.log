@@ -1,9 +1,9 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2024.5.29)  30 MAY 2024 22:01
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2024.5.31)  4 JUL 2024 23:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**2_mot.tex
-(./2_mot.tex
+**7_res.tex
+(./7_res.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
 (/usr/share/texlive/texmf-dist/tex/latex/subfiles/subfiles.cls
@@ -454,7 +454,7 @@ Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 \bibhang=\skip75
 \blx@bcfin=\read2
 \blx@bcfout=\write3
-\blx@langwohyphens=\language7
+\blx@langwohyphens=\language5
 \c@mincomprange=\count332
 \c@maxcomprange=\count333
 \c@mincompwidth=\count334
@@ -1151,100 +1151,100 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'polyglossia' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'spanish'.
- (./2_mot.aux)
-\openout1 = `2_mot.aux'.
+ (./7_res.aux)
+\openout1 = `7_res.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 2.
-LaTeX Font Info:    ... okay on input line 2.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 2.
-LaTeX Font Info:    ... okay on input line 2.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 2.
-LaTeX Font Info:    ... okay on input line 2.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 2.
-LaTeX Font Info:    ... okay on input line 2.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 2.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 2
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 3.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 3
 .
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 2.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 2.
-LaTeX Font Info:    ... okay on input line 2.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 2.
-LaTeX Font Info:    ... okay on input line 2.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 2.
-LaTeX Font Info:    ... okay on input line 2.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 2.
-LaTeX Font Info:    ... okay on input line 2.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 2.
-LaTeX Font Info:    ... okay on input line 2.
-Package scrbase Info: activating spanish \partname on input line 2.
-Package scrbase Info: activating spanish \chaptername on input line 2.
-Package scrbase Info: activating spanish \appendixname on input line 2.
-Package scrbase Info: activating spanish \figurename on input line 2.
-Package scrbase Info: activating spanish \tablename on input line 2.
-Package scrbase Info: activating spanish \contentsname on input line 2.
-Package scrbase Info: activating spanish \listfigurename on input line 2.
-Package scrbase Info: activating spanish \listtablename on input line 2.
-Package scrbase Info: activating spanish \bibname on input line 2.
-Package scrbase Info: activating spanish \indexname on input line 2.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+Package scrbase Info: activating spanish \partname on input line 3.
+Package scrbase Info: activating spanish \chaptername on input line 3.
+Package scrbase Info: activating spanish \appendixname on input line 3.
+Package scrbase Info: activating spanish \figurename on input line 3.
+Package scrbase Info: activating spanish \tablename on input line 3.
+Package scrbase Info: activating spanish \contentsname on input line 3.
+Package scrbase Info: activating spanish \listfigurename on input line 3.
+Package scrbase Info: activating spanish \listtablename on input line 3.
+Package scrbase Info: activating spanish \bibname on input line 3.
+Package scrbase Info: activating spanish \indexname on input line 3.
 
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 (fontspec)             this).
 
 \symlegacymaths=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 2.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 2.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 2.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 2.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 2.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 2.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 2.
-LaTeX Font Info:    Redeclaring math accent \check on input line 2.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 2.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 2.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 2.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 2.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 2.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 2.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 2.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 2.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 2.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 2.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 2.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 2.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 2.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 2.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 2.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 2.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 3.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 3.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 3.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 3.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 3.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 3.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 3.
+LaTeX Font Info:    Redeclaring math accent \check on input line 3.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 3.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 3.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 3.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 3.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 3.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 3.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 3.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 3.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 3.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 3.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 3.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 3.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 3.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 3.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 3.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 3.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 2.
+(Font)              `operators' in the math version `normal' on input line 3.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 2.
+(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 3.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 2.
+(Font)              `operators' in the math version `bold' on input line 3.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 2.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 3.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 2.
+(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 3.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 2.
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 3.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 2.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 3.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 2.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 3.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 2.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 3.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 2.
+(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 3.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 2.
+(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 3.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 2.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 3.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 2.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 3.
 Package biblatex Info: Trying to load language 'spanish' -> 'spanish-apa'...
 Package biblatex Info: ... file 'spanish-apa.lbx' found.
 
@@ -1266,14 +1266,14 @@ Package biblatex Info: XeTeX detected.
 (biblatex)             Assuming input encoding 'utf8'.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
-\openout3 = `2_mot.bcf'.
+\openout3 = `7_res.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file '2_mot.bbl' found.
+Package biblatex Info: ... file '7_res.bbl' found.
 
-(./2_mot.bbl)
-Package biblatex Info: Reference section=0 on input line 2.
-Package biblatex Info: Reference segment=0 on input line 2.
+(./7_res.bbl)
+Package biblatex Info: Reference section=0 on input line 3.
+Package biblatex Info: Reference segment=0 on input line 3.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
@@ -1312,10 +1312,10 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 2.
-(./2_mot.out) (./2_mot.out)
+Package hyperref Info: Link coloring OFF on input line 3.
+(./7_res.out) (./7_res.out)
 \@outlinefile=\write5
-\openout5 = `2_mot.out'.
+\openout5 = `7_res.out'.
 
 Class scrbook Info: loading recommended package `bookmark'.
 (scrbook)           Using `bookmark' together with `hyperref' is recommended,
@@ -1324,7 +1324,7 @@ Class scrbook Info: loading recommended package `bookmark'.
 (scrbook)           `bookmarkpackage=false' before \begin{document} and
 (scrbook)           you can avoid this message adding:
 (scrbook)             \usepackage{bookmark}
-(scrbook)           before \begin{document} on input line 2.
+(scrbook)           before \begin{document} on input line 3.
 
 (/usr/share/texlive/texmf-dist/tex/latex/bookmark/bookmark.sty
 Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
@@ -1333,172 +1333,52 @@ Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
 File: bkm-dvipdfm.def 2023-12-10 v1.31 bookmark driver for dvipdfm (HO)
 \BKM@id=\count476
 ))
-LaTeX Info: Redefining \rmfamily on input line 2.
-LaTeX Info: Redefining \sffamily on input line 2.
-LaTeX Info: Redefining \ttfamily on input line 2.
+LaTeX Info: Redefining \rmfamily on input line 3.
+LaTeX Info: Redefining \sffamily on input line 3.
+LaTeX Info: Redefining \ttfamily on input line 3.
 
 chapter 1.
-
-LaTeX Warning: Citation 'Reitzenstein2012' on page 1 undefined on input line 4.
-
-
-
-LaTeX Warning: Citation 'Bayer2001' on page 1 undefined on input line 4.
-
-
-LaTeX Warning: Citation 'Reithmaier2004' on page 1 undefined on input line 4.
-
-
-LaTeX Warning: Citation 'Michler2000' on page 1 undefined on input line 4.
-
-
-LaTeX Warning: Citation 'Jimenez2017' on page 1 undefined on input line 4.
-
-
-LaTeX Warning: Citation 'Jimenez2017' on page 1 undefined on input line 6.
-
-
-LaTeX Warning: Citation 'Reithmaier2004' on page 1 undefined on input line 6.
-
-LaTeX Font Info:    Trying to load font information for U+msa on input line 6.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 9.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 6.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 9.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
-LaTeX Warning: Citation 'Jimenez2017' on page 1 undefined on input line 6.
+LaTeX Warning: Citation 'Vargas2022' on page 1 undefined on input line 36.
 
 
-LaTeX Warning: Citation 'Poem2010' on page 1 undefined on input line 8.
+LaTeX Warning: Reference `fig:energia-sin-campo-magnetico' on page 1 undefined 
+on input line 36.
 
 
-LaTeX Warning: Citation 'Jimenez2017' on page 1 undefined on input line 11.
-
-
-LaTeX Warning: Citation 'Poem2010' on page 1 undefined on input line 11.
-
-
-LaTeX Warning: Citation 'Bayer2000' on page 1 undefined on input line 11.
-
-
-LaTeX Warning: Citation 'Bin2020' on page 1 undefined on input line 15.
-
-
-Overfull \hbox (9.05196pt too wide) in paragraph at lines 15--16
-[]\TU/lmr/m/n/12 Un tema principal de la ciencia moderna es la manipulación de 
-estados cuánticos ([]).
+Overfull \hbox (13.18324pt too wide) in paragraph at lines 36--37
+\TU/lmr/m/n/12 ($[]$) al estado excitón brillante simétrico ($[]$) y $\OML/cmm/
+m/it/12 ![]$ \TU/lmr/m/n/12 la energía del láser. A continuación
  []
+
+File: ../res/E11E10_B0.pdf Graphic file (type pdf)
+<use ../res/E11E10_B0.pdf>
+
+LaTeX Warning: Reference `fig:detuning-con-campo-magnetico' on page 1 undefined
+ on input line 51.
 
 [1
 
 
 
 ]
-
-LaTeX Warning: Citation 'Kubanek2008' on page 2 undefined on input line 20.
-
-
-LaTeX Warning: Citation 'Ota2011' on page 2 undefined on input line 20.
+File: ../res/det_θ0.pdf Graphic file (type pdf)
+<use ../res/det_θ0.pdf>
 
 
-LaTeX Warning: Citation 'Gauthier1992' on page 2 undefined on input line 20.
+LaTeX Warning: Reference `fig:detuning-con-campo-magnetico' on page 2 undefined
+ on input line 60.
 
-
-LaTeX Warning: Citation 'DAngelo2001' on page 2 undefined on input line 20.
-
-
-LaTeX Warning: Citation 'Afek2010' on page 2 undefined on input line 20.
-
-
-LaTeX Warning: Citation 'Muñoz2014' on page 2 undefined on input line 20.
-
-
-Overfull \hbox (6.46396pt too wide) in paragraph at lines 20--21
-[]\TU/lmr/m/n/12 Una línea de investigación en crecimiento popular es la física
- multifotónica ([];
- []
-
-
-LaTeX Warning: Citation 'Vargas2022' on page 2 undefined on input line 22.
-
-
-LaTeX Warning: Citation 'Borri2001' on page 2 undefined on input line 22.
-
-
-LaTeX Warning: Citation 'Wigger2021' on page 2 undefined on input line 22.
-
-
-LaTeX Warning: Citation 'Kettler2021' on page 2 undefined on input line 22.
-
-
-LaTeX Warning: Citation 'Gustafsson2014' on page 2 undefined on input line 22.
-
-
-LaTeX Warning: Citation 'Wan2021' on page 2 undefined on input line 22.
-
-
-LaTeX Warning: Citation 'Bin2020' on page 2 undefined on input line 22.
-
-
-LaTeX Warning: Citation 'Zhang2018' on page 2 undefined on input line 22.
-
-
-LaTeX Warning: Citation 'Ask2019' on page 2 undefined on input line 24.
-
-
-LaTeX Warning: Citation 'Bin2020' on page 2 undefined on input line 26.
-
-
-LaTeX Warning: Citation 'Kabuss2012' on page 2 undefined on input line 29.
-
-
-LaTeX Warning: Citation 'Lemonde2018' on page 2 undefined on input line 29.
-
-
-LaTeX Warning: Citation 'Schütz2017' on page 2 undefined on input line 29.
-
-
-LaTeX Warning: Citation 'Hartke2018' on page 2 undefined on input line 29.
-
-
-LaTeX Warning: Citation 'Lupke2022' on page 2 undefined on input line 29.
-
-[2]
-
-LaTeX Warning: Citation 'Chu2018' on page 3 undefined on input line 32.
-
-
-LaTeX Warning: Citation 'Toyoda2015' on page 3 undefined on input line 32.
-
-
-Overfull \hbox (28.28639pt too wide) in paragraph at lines 32--33
-\TU/lmr/m/n/12 fuentes de $\OML/cmm/m/it/12 N$\TU/lmr/m/n/12 -fonones ([]) y pa
-ra medidas de precisión cuántica acústica ([]),
- []
-
-
-LaTeX Warning: Citation 'Zhang2018' on page 3 undefined on input line 36.
-
-
-LaTeX Warning: Citation 'Arrangoiz2018' on page 3 undefined on input line 36.
-
-
-Overfull \hbox (0.30925pt too wide) in paragraph at lines 36--37
-\TU/lmr/m/n/12 detección cuántica, tecnologías cuánticas tal como las memorias 
-cuánticas y los transducers
- []
-
-
-LaTeX Warning: Citation 'Bin2020' on page 3 undefined on input line 38.
-
-
-LaTeX Warning: Citation '' on page 3 undefined on input line 38.
-
-[3] (./2_mot.aux)
+[2] [3] (./7_res.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
@@ -1507,24 +1387,24 @@ L3 programming layer <2024-01-22>
 
 LaTeX Warning: There were undefined references.
 
-Package rerunfilecheck Info: File `2_mot.out' has not changed.
+Package rerunfilecheck Info: File `7_res.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
 Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                2_mot
+(biblatex)                7_res
 (biblatex)                and rerun LaTeX afterwards.
 
-Package logreq Info: Writing requests to '2_mot.run.xml'.
-\openout1 = `2_mot.run.xml'.
+Package logreq Info: Writing requests to '7_res.run.xml'.
+\openout1 = `7_res.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 38907 strings out of 476835
- 837312 string characters out of 5804108
- 1944627 words of memory out of 5000000
- 60301 multiletter control sequences out of 15000+600000
- 564917 words of font info for 81 fonts, out of 8000000 for 9000
- 36 hyphenation exceptions out of 8191
- 128i,20n,148p,10964b,5275s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 38931 strings out of 476878
+ 837906 string characters out of 5805249
+ 1946627 words of memory out of 5000000
+ 60327 multiletter control sequences out of 15000+600000
+ 563799 words of font info for 68 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 128i,19n,148p,10964b,4620s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on 2_mot.pdf (3 pages).
+Output written on 7_res.pdf (3 pages).

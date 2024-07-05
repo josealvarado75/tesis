@@ -44,10 +44,10 @@
   <internal package="biblatex" priority="9" active="1">
     <generic>latex</generic>
     <provides type="dynamic">
-      <file>2_mot.bcf</file>
+      <file>7_res.bcf</file>
     </provides>
     <requires type="dynamic">
-      <file>2_mot.bbl</file>
+      <file>7_res.bbl</file>
     </requires>
     <requires type="static">
       <file>blx-dm.def</file>
@@ -67,19 +67,19 @@
     <generic>biber</generic>
     <cmdline>
       <binary>biber</binary>
-      <infile>2_mot</infile>
+      <infile>7_res</infile>
     </cmdline>
     <input>
-      <file>2_mot.bcf</file>
+      <file>7_res.bcf</file>
     </input>
     <output>
-      <file>2_mot.bbl</file>
+      <file>7_res.bbl</file>
     </output>
     <provides type="dynamic">
-      <file>2_mot.bbl</file>
+      <file>7_res.bbl</file>
     </provides>
     <requires type="dynamic">
-      <file>2_mot.bcf</file>
+      <file>7_res.bcf</file>
     </requires>
     <requires type="editable">
       <file>ArticlesRead.bib</file>
