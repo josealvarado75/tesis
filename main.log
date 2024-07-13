@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2024.5.31)  13 JUL 2024 16:36
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2024.5.31)  13 JUL 2024 16:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1398,9 +1398,9 @@ iento débil electrón-
 \tf@lof=\write7
 \openout7 = `main.lof'.
 
- [7] (./caps/1_int.tex
+ [7] (./1_int.tex
 chapter 1.
-) (./caps/2_mot.tex [1
+) (./2_mot.tex [1
 
 
 
@@ -1421,7 +1421,7 @@ Overfull \hbox (2.29062pt too wide) in paragraph at lines 38--39
 finamente su frecuencia
  []
 
-) (./caps/3_pro.tex [4]
+) (./3_pro.tex [4]
 chapter 3.
 
 Overfull \hbox (1.71724pt too wide) in paragraph at lines 5--6
@@ -1444,7 +1444,7 @@ l sistema. La producción
 [5
 
 
-]) (./caps/4_art.tex [6]
+]) (./4_art.tex [6]
 chapter 4.
 
 Overfull \hbox (4.22394pt too wide) in paragraph at lines 5--6
@@ -1569,7 +1569,7 @@ iltoniano completo, porque
 [16]
 File: img/emissionSpectrum_Giant-Rabi.pdf Graphic file (type pdf)
 <use img/emissionSpectrum_Giant-Rabi.pdf>
- [17] [18]) (./caps/5_sis.tex
+ [17] [18]) (./5_sis.tex
 Overfull \hbox (4.7399pt too wide) in paragraph at lines 228--3
 \TU/lmr/m/n/12 El documento menciona experimentos que implican la medición de l
 as energías de transición
@@ -1583,7 +1583,7 @@ en existir en semiconductores
 
 [19]
 chapter 5.
-) (./caps/6_mod.tex [20
+) (./6_mod.tex [20
 
 
 ]
@@ -1631,35 +1631,83 @@ Overfull \hbox (4.57593pt too wide) in paragraph at lines 238--239
 uántico aislado se representa
  []
 
-[29] [30]) (./caps/7_res.tex [31]
+[29] [30]) (./7_res.tex [31]
 chapter 7.
 
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 33.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 33.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 36.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\theta' on input line 36.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 36.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\circ' on input line 36.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 36.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 38.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\theta' on input line 38.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 38.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\circ' on input line 38.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 38.
+
+
 LaTeX Warning: Reference `fig:energia-sin-campo-magnetico' on page 32 undefined
- on input line 36.
-
-File: caps/../res/E11E10_B0.pdf Graphic file (type pdf)
-<use caps/../res/E11E10_B0.pdf>
-
-LaTeX Warning: Reference `fig:detuning-con-campo-magnetico' on page 32 undefine
-d on input line 51.
+ on input line 42.
 
 [32
 
 
 ]
-File: caps/../res/det_θ0.pdf Graphic file (type pdf)
-<use caps/../res/det_θ0.pdf>
+File: img/../res/E11E10_B0.pdf Graphic file (type pdf)
+<use img/../res/E11E10_B0.pdf>
 
 
 LaTeX Warning: Reference `fig:detuning-con-campo-magnetico' on page 33 undefine
-d on input line 60.
+d on input line 57.
 
-) (./caps/8_ana.tex [33] [34]
+File: img/../res/det_θ0.pdf Graphic file (type pdf)
+<use img/../res/det_θ0.pdf>
+
+LaTeX Warning: Reference `fig:detuning-con-campo-magnetico' on page 33 undefine
+d on input line 66.
+
+[33]) (./8_ana.tex [34] [35]
 chapter 8.
-) [35
+) [36
 
 
-] [36
+] [37
 
 
 ]
@@ -1667,7 +1715,7 @@ chapter 8.
 LaTeX Font Warning: Font shape `TU/lmss/bx/sc' undefined
 (Font)              using `TU/lmss/bx/n' instead on input line 93.
 
-(./caps/ape.tex [37
+(./ape.tex [38
 
 
 ]
@@ -1684,17 +1732,17 @@ Overfull \hbox (6.10127pt too wide) in paragraph at lines 39--40
 e consideran 4 posibilidades
  []
 
-[38
+[39
 
 
-] [39] [40]
+] [40] [41]
 chapter B.
-[41
+[42
 
 
 ]
 chapter C.
-[42
+[43
 
 
 ]
@@ -1705,18 +1753,18 @@ Overfull \hbox (2.53195pt too wide) in paragraph at lines 138--139
 s sub sistemas conformantes,
  []
 
-[43
+[44
 
 
-] [44]
+] [45]
 Overfull \hbox (3.67056pt too wide) in paragraph at lines 177--178
 \TU/lmr/m/n/12 componentes, con excepción del estado de valencia, dependen de l
 os factores giromagneticos
  []
 
-[45] [46]
+[46] [47]
 chapter E.
-[47
+[48
 
 
 ]
@@ -1731,9 +1779,9 @@ Overfull \hbox (2.12793pt too wide) in paragraph at lines 281--283
  fonon y el campo magnetico.
  []
 
-[48] [49]
+[49] [50]
 chapter F.
-) [50
+) [51
 
 
 ]
@@ -1749,7 +1797,7 @@ Overfull \hbox (0.92543pt too wide) in paragraph at lines 105--105
 um dots: Intrinsic
  []
 
-[51
+[52
 
 
 ]
@@ -1758,16 +1806,16 @@ Overfull \hbox (33.71838pt too wide) in paragraph at lines 105--105
 Electrodynamics.
  []
 
-[52]
+[53]
 Missing character: There is no ȩ (U+0229) in font [lmroman12-regular]:mapping=t
 ex-text;!
-[53]
+[54]
 Overfull \hbox (11.5024pt too wide) in paragraph at lines 105--105
 \TU/lmr/m/n/12 Machnikowski, P. (2021). Resonance-fluorescence spectral dynamic
 s of an acoustically
  []
 
-[54] (./main.aux)
+[55] (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
@@ -1781,22 +1829,17 @@ LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                main
-(biblatex)                and rerun LaTeX afterwards.
-
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 39753 strings out of 476878
- 860415 string characters out of 5805249
- 1950627 words of memory out of 5000000
- 61066 multiletter control sequences out of 15000+600000
+ 39752 strings out of 476878
+ 860149 string characters out of 5805249
+ 1951627 words of memory out of 5000000
+ 61069 multiletter control sequences out of 15000+600000
  566551 words of font info for 98 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 108i,21n,131p,10923b,5989s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 108i,21n,131p,10923b,5987s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (61 pages).
+Output written on main.pdf (62 pages).

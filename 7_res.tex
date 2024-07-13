@@ -1,4 +1,4 @@
-\documentclass[../main.tex]{subfiles}
+\documentclass[main.tex]{subfiles}
 %
 \begin{document}
 \chapter{Resultados}
@@ -30,10 +30,41 @@ A continuaci\'on relaciono los valores de los par\'ametros usados en todos los r
 		& $\gamma_\phi = 400 \text{ neV}$                                 \\ \bottomrule
 	\end{tabular}
 \end{table}
+\section{Sin campo magn\'etico $(B=0)$}
+En este apartado se quiere mostrar algunos detalles en la generaci\'on de las gigante-Rabi tomando como referencia el trabajo hecho por los autores \textcite{Vargas2022}. Lo primero que se quiere mostrar es el diagrama de energias donde se evidencie en que puntos hay interacci\'on y en cuales no. Esto se puede en el diagrama de energias donde un cruce me indica que no hay interacci\'on y un anticruce me indicar\'ia que s\'i hay interacci\'on, este anticruce tambi\'en es llamado el desdoblamiento de Rabi; por lo tanto, se mostrar\'a los respectivos diagramas de dispersi\'on donde se evidencie lo mencionado anteriormente.
+
+\begin{figure}[htbp]
+	\centering
+	\begin{subfigure}[b]{0.45\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{res/E11E10_B0}
+		\caption{Subfigura 1}
+		\label{fig:subfigura1}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[b]{0.45\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{res/E10E9_B0}
+		\caption{Subfigura 2}
+		\label{fig:subfigura2}
+	\end{subfigure}
+	\caption{Figura principal que contiene dos subfiguras.}
+	\label{fig:figura_principal}
+\end{figure}
+
+%\begin{figure}[bh]
+%	\centering
+%	\includegraphics[width=.5\linewidth]{../res/E11E10_B0}
+%	\caption{Diagrama de energia del sistema cuando se gradua el laser de tal forma que al ir aumentando su frecuencia se encuentran transiciones entre estados cuya diferencia de variedades de excitacion es tres (gigante-Rabi), en este se muestran las tres permitidas y la prohibida. En la parte inferior se muestran los coeficientes de Hopfield del estado vacio con cada uno de los estados propios correspondientes.}
+%	\label{fig:E11E10_B0}
+%\end{figure}
+\section{Configuraci\'on de Voigt $(\theta = 0^\circ)$}
+
+\section{Configuraci\'on de Faraday $(\theta = 90^\circ)$}
 
 \section{Descomposici\'on espectral}
 
-A continuaci\'on se muestra el espectro de energ\'ias del sistema cuando no hay campo magn\'etico ($B=0$), es decir, el sistema modelado por \cite{Vargas2022}. Se puede observar en la figura \ref{fig:energia-sin-campo-magnetico} que hay tres transiciones de estado permitidas y una prohibida a diferentes desafinamientos ($\Delta = \omega_b-\omega_L$) con $\omega_b$ siendo la energ\'ia de transici\'on del estado vac\'io ($\ket{v,0}$) al estado excit\'on brillante sim\'etrico ($\ket{X_{b+},0}$) y $\omega_L$ la energ\'ia del l\'aser. A continuaci\'on se muestran las transiciones permitidas con sus desafinamientos correspondientes y la transicion prohibida:
+A continuaci\'on se muestra el espectro de energ\'ias del sistema cuando no hay campo magn\'etico ($B=0$), es decir, el sistema modelado por \parencite{Vargas2022}. Se puede observar en la figura \ref{fig:energia-sin-campo-magnetico} que hay tres transiciones de estado permitidas y una prohibida a diferentes desafinamientos ($\Delta = \omega_b-\omega_L$) con $\omega_b$ siendo la energ\'ia de transici\'on del estado vac\'io ($\ket{v,0}$) al estado excit\'on brillante sim\'etrico ($\ket{X_{b+},0}$) y $\omega_L$ la energ\'ia del l\'aser. A continuaci\'on se muestran las transiciones permitidas con sus desafinamientos correspondientes y la transicion prohibida:
 \begin{align}
 	\bra{v,0}H\ket{X_{b+},2} &\neq 0 \quad \text{con} \quad \Delta \approx -2.001 \text{ meV},\\
 	\bra{v,0}H\ket{X_{b-},2} &\neq 0 \quad \text{con} \quad \Delta \approx -1.981 \text{ meV},\\
@@ -41,12 +72,7 @@ A continuaci\'on se muestra el espectro de energ\'ias del sistema cuando no hay 
 	\bra{v,0}H\ket{X_{d-},2} &= 0 \quad \forall \;\; \Delta.
 \end{align}
 
-\begin{figure}[bh]
-	\centering
-	\includegraphics[width=.5\linewidth]{../res/E11E10_B0}
-	\caption{Diagrama de energia del sistema cuando se gradua el laser de tal forma que al ir aumentando su frecuencia se encuentran transiciones entre estados cuya diferencia de variedades de excitacion es tres (gigante-Rabi), en este se muestran las tres permitidas y la prohibida. En la parte inferior se muestran los coeficientes de Hopfield del estado vacio con cada uno de los estados propios correspondientes.}
-	\label{fig:E11E10_B0}
-\end{figure}
+
 
 Como se puede observar la interacci\'on es del orden de los $\mu$eV obteniendo que la intensidad de la interaccion es la diferencia entre las energias correspondientes. As\'i si se activa el campo magneticos vamos a ver en la figura \ref{fig:detuning-con-campo-magnetico} si el minimo (donde sucede la interaccion entre estados) sufre algun cambio.
 

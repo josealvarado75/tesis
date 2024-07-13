@@ -1,0 +1,121 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/apasortcite//global/global}
+    \entry{Vargas2022}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=0d1e72a1f2ebd386df282a9f040aec5b}{%
+           family={Vargas-Calderón},
+           familyi={V\bibinithyphendelim C\bibinitperiod},
+           given={Vladimir},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=24d8af0377c1eab9177059ba0b12b564}{%
+           family={Vinck-Posada},
+           familyi={V\bibinithyphendelim P\bibinitperiod},
+           given={Herbert},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0986190bea81c03265a061f2430c38da}{%
+           family={Villas-Boas},
+           familyi={V\bibinithyphendelim B\bibinitperiod},
+           given={J.\bibnamedelimi M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{785fc70022f945d53d2cffe5e0f41447}
+      \strng{fullhash}{fb666a45f422d1426b2999d91e429490}
+      \strng{bibnamehash}{fb666a45f422d1426b2999d91e429490}
+      \strng{authorbibnamehash}{fb666a45f422d1426b2999d91e429490}
+      \strng{authornamehash}{785fc70022f945d53d2cffe5e0f41447}
+      \strng{authorfullhash}{fb666a45f422d1426b2999d91e429490}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2469-9950}
+      \field{issue}{3}
+      \field{journaltitle}{Physical Review B}
+      \field{month}{7}
+      \field{title}{Dark-exciton giant Rabi oscillations with no external magnetic field}
+      \field{volume}{106}
+      \field{year}{2022}
+      \field{pages}{035305}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevB.106.035305
+      \endverb
+    \endentry
+  \enddatalist
+  \datalist[entry]{apa/global//global/global}
+    \entry{Vargas2022}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=0d1e72a1f2ebd386df282a9f040aec5b}{%
+           family={Vargas-Calderón},
+           familyi={V\bibinithyphendelim C\bibinitperiod},
+           given={Vladimir},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=24d8af0377c1eab9177059ba0b12b564}{%
+           family={Vinck-Posada},
+           familyi={V\bibinithyphendelim P\bibinitperiod},
+           given={Herbert},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0986190bea81c03265a061f2430c38da}{%
+           family={Villas-Boas},
+           familyi={V\bibinithyphendelim B\bibinitperiod},
+           given={J.\bibnamedelimi M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{785fc70022f945d53d2cffe5e0f41447}
+      \strng{fullhash}{fb666a45f422d1426b2999d91e429490}
+      \strng{bibnamehash}{fb666a45f422d1426b2999d91e429490}
+      \strng{authorbibnamehash}{fb666a45f422d1426b2999d91e429490}
+      \strng{authornamehash}{785fc70022f945d53d2cffe5e0f41447}
+      \strng{authorfullhash}{fb666a45f422d1426b2999d91e429490}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2469-9950}
+      \field{issue}{3}
+      \field{journaltitle}{Physical Review B}
+      \field{month}{7}
+      \field{title}{Dark-exciton giant Rabi oscillations with no external magnetic field}
+      \field{volume}{106}
+      \field{year}{2022}
+      \field{pages}{035305}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevB.106.035305
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

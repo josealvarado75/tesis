@@ -1,26 +1,26 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'main.blg'
-[50] biber:340> INFO - === Fri May 10, 2024, 10:44:35
-[61] Biber.pm:419> INFO - Reading 'main.bcf'
-[112] Biber.pm:979> INFO - Found 48 citekeys in bib section 0
-[124] Biber.pm:4419> INFO - Processing section 0
-[130] Biber.pm:4610> INFO - Looking for bibtex file 'ArticlesRead.bib' for section 0
-[130] bibtex.pm:1713> INFO - LaTeX decoding ...
-[133] bibtex.pm:1519> INFO - Found BibTeX data source 'ArticlesRead.bib'
-[162] Biber.pm:4610> INFO - Looking for bibtex file 'UnreadArticles.bib' for section 0
-[164] bibtex.pm:1713> INFO - LaTeX decoding ...
-[192] bibtex.pm:1519> INFO - Found BibTeX data source 'UnreadArticles.bib'
-[436] Biber.pm:4610> INFO - Looking for bibtex file 'UnreadBookSection.bib' for section 0
-[437] bibtex.pm:1713> INFO - LaTeX decoding ...
-[439] bibtex.pm:1519> INFO - Found BibTeX data source 'UnreadBookSection.bib'
-[446] Biber.pm:4610> INFO - Looking for bibtex file 'UnreadPhdthesis.bib' for section 0
-[447] bibtex.pm:1713> INFO - LaTeX decoding ...
-[447] bibtex.pm:1519> INFO - Found BibTeX data source 'UnreadPhdthesis.bib'
-[507] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
-[507] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[507] Biber.pm:4239> INFO - Sorting list 'apa/apasortcite//global/global' of type 'entry' with template 'apa' and locale 'es-ES'
-[579] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
-[579] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[579] Biber.pm:4239> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'es-ES'
-[622] bbl.pm:660> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[688] bbl.pm:763> INFO - Output to main.bbl
+[48] biber:340> INFO - === Sat Jul 13, 2024, 16:59:18
+[59] Biber.pm:419> INFO - Reading 'main.bcf'
+[110] Biber.pm:979> INFO - Found 48 citekeys in bib section 0
+[121] Biber.pm:4419> INFO - Processing section 0
+[127] Biber.pm:4610> INFO - Looking for bibtex file 'ArticlesRead.bib' for section 0
+[128] bibtex.pm:1713> INFO - LaTeX decoding ...
+[130] bibtex.pm:1519> INFO - Found BibTeX data source 'ArticlesRead.bib'
+[160] Biber.pm:4610> INFO - Looking for bibtex file 'UnreadArticles.bib' for section 0
+[161] bibtex.pm:1713> INFO - LaTeX decoding ...
+[189] bibtex.pm:1519> INFO - Found BibTeX data source 'UnreadArticles.bib'
+[427] Biber.pm:4610> INFO - Looking for bibtex file 'UnreadBookSection.bib' for section 0
+[428] bibtex.pm:1713> INFO - LaTeX decoding ...
+[430] bibtex.pm:1519> INFO - Found BibTeX data source 'UnreadBookSection.bib'
+[437] Biber.pm:4610> INFO - Looking for bibtex file 'UnreadPhdthesis.bib' for section 0
+[438] bibtex.pm:1713> INFO - LaTeX decoding ...
+[438] bibtex.pm:1519> INFO - Found BibTeX data source 'UnreadPhdthesis.bib'
+[501] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[501] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[501] Biber.pm:4239> INFO - Sorting list 'apa/apasortcite//global/global' of type 'entry' with template 'apa' and locale 'es-ES'
+[575] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[575] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[575] Biber.pm:4239> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'es-ES'
+[617] bbl.pm:660> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[656] bbl.pm:763> INFO - Output to main.bbl
