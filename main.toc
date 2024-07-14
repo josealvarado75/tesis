@@ -51,26 +51,26 @@
 \contentsline {subsubsection}{\nonumberline Sistema cavidad acústica monomodal-QD, de 5 niveles con acoplamiento electrón-fonón}{30}{subsubsection*.72}%
 \contentsline {section}{\numberline {6.8}Teoría espectral}{31}{section.6.8}%
 \contentsline {chapter}{\numberline {7}Resultados}{32}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Sin campo magn\'etico $(B=0)$}{32}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Configuraci\'on de Voigt $(\theta = 0^\circ )$}{33}{section.7.2}%
-\contentsline {section}{\numberline {7.3}Configuraci\'on de Faraday $(\theta = 90^\circ )$}{33}{section.7.3}%
-\contentsline {section}{\numberline {7.4}Descomposici\'on espectral}{33}{section.7.4}%
-\contentsline {chapter}{\numberline {8}Análisis de resultados}{36}{chapter.8}%
-\contentsline {chapter}{Conclusiones}{37}{chapter*.77}%
-\contentsline {chapter}{Apéndices}{38}{chapter*.78}%
-\contentsline {chapter}{\numberline {A}Hamiltoniano del sistema reescrito}{39}{appendix.A}%
-\contentsline {chapter}{\numberline {B}Hamiltoniano}{42}{appendix.B}%
-\contentsline {chapter}{\numberline {C}Transformación al marco rotante}{43}{appendix.C}%
-\contentsline {chapter}{\numberline {D}Estudio de los sub Hamiltonianos con excitones}{44}{appendix.D}%
-\contentsline {section}{\numberline {D.1}Punto cuántico}{44}{section.D.1}%
-\contentsline {section}{\numberline {D.2}Bombeo coherente}{45}{section.D.2}%
-\contentsline {section}{\numberline {D.3}Campo magnético externo}{45}{section.D.3}%
-\contentsline {section}{\numberline {D.4}Punto cuántico y bombeo coherente}{46}{section.D.4}%
-\contentsline {section}{\numberline {D.5}Punto cuántico y campo magnético externo}{47}{section.D.5}%
-\contentsline {chapter}{\numberline {E}Tansiciones del Hamiltoniano}{48}{appendix.E}%
-\contentsline {section}{\numberline {E.1}Base desnuda}{48}{section.E.1}%
-\contentsline {section}{\numberline {E.2}Base vestida}{49}{section.E.2}%
-\contentsline {chapter}{\numberline {F}Ecuación maestra}{51}{appendix.F}%
-\contentsline {chapter}{Referencias}{55}{section*.79}%
+\contentsline {section}{\numberline {7.1}Sin campo magn\'etico $(B=0 \text {\xpg@select@fontfamily {spanish}\fontseries {m}\selectfont \fontshape {n}\selectfont T})$}{32}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Configuraci\'on de Voigt $(\theta = 0^\circ )$}{35}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Configuraci\'on de Faraday $(\theta = 90^\circ )$}{35}{section.7.3}%
+\contentsline {section}{\numberline {7.4}Descomposici\'on espectral}{35}{section.7.4}%
+\contentsline {chapter}{\numberline {8}Análisis de resultados}{37}{chapter.8}%
+\contentsline {chapter}{Conclusiones}{38}{chapter*.78}%
+\contentsline {chapter}{Apéndices}{39}{chapter*.79}%
+\contentsline {chapter}{\numberline {A}Hamiltoniano del sistema reescrito}{40}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Hamiltoniano}{43}{appendix.B}%
+\contentsline {chapter}{\numberline {C}Transformación al marco rotante}{44}{appendix.C}%
+\contentsline {chapter}{\numberline {D}Estudio de los sub Hamiltonianos con excitones}{45}{appendix.D}%
+\contentsline {section}{\numberline {D.1}Punto cuántico}{45}{section.D.1}%
+\contentsline {section}{\numberline {D.2}Bombeo coherente}{46}{section.D.2}%
+\contentsline {section}{\numberline {D.3}Campo magnético externo}{46}{section.D.3}%
+\contentsline {section}{\numberline {D.4}Punto cuántico y bombeo coherente}{47}{section.D.4}%
+\contentsline {section}{\numberline {D.5}Punto cuántico y campo magnético externo}{48}{section.D.5}%
+\contentsline {chapter}{\numberline {E}Tansiciones del Hamiltoniano}{49}{appendix.E}%
+\contentsline {section}{\numberline {E.1}Base desnuda}{49}{section.E.1}%
+\contentsline {section}{\numberline {E.2}Base vestida}{50}{section.E.2}%
+\contentsline {chapter}{\numberline {F}Ecuación maestra}{52}{appendix.F}%
+\contentsline {chapter}{Referencias}{56}{section*.80}%
 \xpginauxfilefalse 
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

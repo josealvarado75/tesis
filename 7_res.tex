@@ -30,22 +30,108 @@ A continuación, se presentan los valores de los parámetros utilizados en todos
 		& $\gamma_\phi = 400 \text{ neV}$                                 \\ \bottomrule
 	\end{tabular}
 \end{table}
+
+Un aspecto importante en la generaci\'on de las oscilaciones de Rabi o gigante-Rabi es dejar claro c\'omo es la estructura de estados para que se generen, cuando el sistema no se bombea, es decir,$\omega_L=0\text{meV}$, encontramos que los estados tienen la siguiente energ\'ia
+
+%% figura del diagrama de energ\'ia
+
+\begin{equation}
+	\ket{\psi} = c_1\ket{v,0} + c_2\ket{n,X}
+\end{equation}
+
 \section{Sin campo magn\'etico $(B=0 \text{\normalfont T})$}
-En este apartado, se desea mostrar algunos detalles sobre la generación de las gigante-Rabi, tomando como referencia el trabajo realizado por los autores \textcite{Vargas2022}. Primero, se presenta el diagrama de energías, donde se evidencia en qué puntos hay interacción y en cuáles no. En este diagrama, un cruce indica que no hay interacción, mientras que un anticruce señala que sí la hay. Este anticruce también se conoce como desdoblamiento de Rabi. Por lo tanto, se mostrarán los respectivos diagramas de dispersión para evidenciar lo mencionado anteriormente.
+\begin{figure}[htbp]
+	\centering
+	\begin{tikzpicture}[scale=1]
+		% Ejes
+		\draw[thick] (0,-1.5) -- (0,3);
+		% quiebre del eje
+		\node at (0,3.2) {\rotatebox{45}{$=$}};
+		\draw[->] (0,3.4) -- (0,7) node[above] {Energía (meV)};
+		
+		% Niveles de energía
+		\draw[thick] (0.5,0) -- (2,0) node[left] at (0,0) {0};
+		\draw[thick] (0.5,1) -- (2,1) node[left] at (0,1) {1};
+		\draw[thick] (0.5,2) -- (2,2) node[left] at (0,2) {2};
+		%quiebre del eje
+		\draw[thick] (0.5,4) -- (2,4) node[left] at (0,4) {1000};
+		\draw[thick] (0.5,5) -- (2,5) node[left] at (0,5) {1001};
+		\draw[thick] (0.5,6) -- (2,6) node[left] at (0,6) {1002};
+		
+		% Puntos suspensivos
+		\node at (1.25,2.8) {\vdots};
+		%quiebre del eje
+		\node at (1.25,6.8) {\vdots};
+		
+		% Etiquetas de niveles
+		\node at (2.5,0) {$\ket{v,0}$};
+		\node at (2.5,1) {$\ket{v,1}$};
+		\node at (2.5,2) {$\ket{v,2}$};
+		%quiebre del eje
+		\node at (2.8,4) {$\ket{X,0}$};
+		\node at (2.8,5) {$\ket{X,1}$};
+		\node at (2.8,6) {$\ket{X,2}$};
+		
+		\draw[red] (0,7.02) -- (10,7.02);
+		\draw[red] (0,3.9) -- (10,-1.5);
+		\begin{scope}[shift={(10,0)}]
+			% Ejes
+			\draw[->] (0,-1.5) -- (0,7) node[above] {Energía (meV)};
+			
+			% Niveles de energía
+			\draw[thick] (0.5,-0.7) -- (2,-0.7);
+			\draw[thick] (0.5,-0.6) -- (2,-0.6);
+			\draw[thick] (0.5,-0.3) -- (2,-0.3);
+			\draw[thick] (0.5,0) -- (2,0) node[left] at (0,0) {1000};
+			
+			\draw[thick] (0.5,2.3) -- (2,2.3);
+			\draw[thick] (0.5,2.4) -- (2,2.4);
+			\draw[thick] (0.5,2.7) -- (2,2.7);
+			\draw[thick] (0.5,3) -- (2,3) node[left] at (0,3) {1001};
+			
+			\draw[thick] (0.5,5.3) -- (2,5.3);
+			\draw[thick] (0.5,5.4) -- (2,5.4);
+			\draw[thick] (0.5,5.7) -- (2,5.7);
+			\draw[thick] (0.5,6) -- (2,6) node[left] at (0,6) {1002};
+			
+			% Puntos suspensivos
+			\node at (1.25,6.8) {\vdots};
+			
+			% Etiquetas de niveles
+			\draw[dashed] (2,-0.7) -- (3.2,-1) node at (4,-1) {$\ket{X_{d-},0}$};
+			\draw[dashed] (2,-0.6) -- (3.2,-0.5) node at (4,-0.5) {$\ket{X_{d+},0}$};
+			\draw[dashed] (2,-0.3) -- (3.2,0) node at (4,0) {$\ket{X_{b-},0}$};
+			\draw[dashed] (2,0) -- (3.2,0.5) node at (4,0.5) {$\ket{X_{b+},0}$};
+			
+			\draw[dashed] (2,2.3) -- (3.2,2) node at (4,2) {$\ket{X_{d-},1}$};
+			\draw[dashed] (2,2.4) -- (3.2,2.5) node at (4,2.5) {$\ket{X_{d+},1}$};
+			\draw[dashed] (2,2.7) -- (3.2,3) node at (4,3) {$\ket{X_{b-},1}$};
+			\draw[dashed] (2,3) -- (3.2,3.5) node at (4,3.5) {$\ket{X_{b+},1}$};
+			
+			\draw[dashed] (2,5.3) -- (3.2,5) node at (4,5) {$\ket{X_{d-},2}$};
+			\draw[dashed] (2,5.4) -- (3.2,5.5) node at (4,5.5) {$\ket{X_{d+},2}$};
+			\draw[dashed] (2,5.7) -- (3.2,6) node at (4,6) {$\ket{X_{b-},2}$};
+			\draw[dashed] (2,6) -- (3.2,6.5) node at (4,6.5) {$\ket{X_{b+},2}$};	
+		\end{scope}
+	\end{tikzpicture}
+	\caption{Diagrama de energ\'ia sin l\'aser $(\omega_L=0\text{meV})$ y sin campo magn\'etico $(B=0\text{T})$, con energia de excitaci\'on t\'ipica de los QD $(\omega_b=1\text{eV})$. A la izquierda el diagrama de energia completo y a la derecha un acercamiento a la parte superior del diagrama debido a la gran cercan\'ia entre estados.}
+\end{figure}
+
+En este apartado, se desea mostrar algunos detalles sobre la generación de las gigantes-Rabi, tomando como referencia el trabajo realizado por los autores \textcite{Vargas2022}. Primero, se presenta el diagrama de energías, donde se evidencia en qué puntos hay interacción y en cuáles no. En este diagrama, un cruce indica que no hay interacción, mientras que un anticruce señala que sí la hay. Este anticruce también se conoce como desdoblamiento de Rabi. Por lo tanto, se mostrarán los respectivos diagramas de dispersión para evidenciar lo mencionado anteriormente.
 
 \begin{figure}[htbp]
 	\centering
 	\begin{subfigure}[b]{0.49\textwidth}
 		\centering
 		\includegraphics[width=\textwidth]{res/E11E10_B0}
-		\caption{Anticruce que evidencia la interacción entre los respectivos estados propios de energía.}
+		\caption{Anticruce, evidencia de interacción entre los estados propios de energía 10 y 11. En un valor de energ\'ia cerca a cero ($\sim$3.4 $\mu$eV).}
 		\label{fig:E11E10_B0}
 	\end{subfigure}
 	\hfill
 	\begin{subfigure}[b]{0.49\textwidth}
 		\centering
 		\includegraphics[width=\textwidth]{res/E10E9_B0}
-		\caption{Cruce que evidencia la ausencia de interacción entre los respectivos estados propios de energía.}
+		\caption{Cruce, muestra ausencia de interacción entre los estados propios de energía 9 y 10 con energ\'ia cerca a cero ($\sim$3.4 $\mu$eV).}
 		\label{fig:E10E9_B0}
 	\end{subfigure}
 	\begin{subfigure}[b]{0.49\textwidth}
@@ -58,7 +144,7 @@ En este apartado, se desea mostrar algunos detalles sobre la generación de las 
 	\begin{subfigure}[b]{0.49\textwidth}
 		\centering
 		\includegraphics[width=\textwidth]{res/h10_B0}
-		\caption{Coeficientes de Hopfield para observar cuáles son los estados de la base involucrados en la reorganización de la base cuando no hay interacción.}
+		\caption{Coeficientes de Hopfield cuando se intercambian las etiquetas de los estados propios 9 y 10.}
 		\label{fig:h10_B0}
 	\end{subfigure}
 	\begin{subfigure}[b]{0.49\textwidth}
@@ -78,7 +164,15 @@ En este apartado, se desea mostrar algunos detalles sobre la generación de las 
 	\label{fig:Vladimir}
 \end{figure}
 
-Como se observa en la figura \ref{fig:Vladimir}, se detalla el procedimiento numérico para encontrar las gigante-Rabi en general. Aquí se indica que cuando se encuentra un anticruce, se está evidenciando una interacción en la que, en principio, se intercambian los estados de la base entre los respectivos estados propios. Esto se puede comprobar usando los coeficientes de Hopfield, en los que se grafica la probabilidad de cada uno de los estados de la base de alguno de los dos vectores propios involucrados en la interacción. Una vez se obtiene el valor del detuning, $\Delta \approx -n\omega_b$, cuyo valor es negativo debido a que el detuning se define como $\Delta = \omega_b - \omega_L$. Es decir, es negativo porque se está ajustando la energía del láser a un valor mayor que el de la excitación del excitón brillante, condición requerida para generar las gigante-Rabi entre el estado vacío $\ket{v,0}$ y algún estado excitón. Esto indica que el sistema inicialmente se prepara en el estado vacío para que luego evolucione a un estado excitón. La variedad de excitación se entiende en este contexto como el número de excitación del modo fundamental del estado del sistema. El estado vacío tiene una variedad de excitación cero, mientras que el estado $\ket{n,X}$ tiene una variedad de excitación de $n+1$, donde $X$ indica cualquier estado excitón presente en el sistema, ya sean excitones brillantes u oscuros, que pueden ser simétricos o antisimétricos. Cuando la diferencia en la variedad de excitación es mayor a 1, se genera una gigante-Rabi.
+El diagrama de energía se obtiene numéricamente, ordenando las energías de menor a mayor. De esta forma, también se organizan los vectores propios correspondientes. Esto implica que, cuando dos estados tienen la misma energía, el diagrama de dispersión mostrará un cruce y sus etiquetas se intercambiarán. Es decir, si el cruce ocurre entre los estados propios 9 y 10, después del cruce, el estado que era 9 pasará a ser 10 y viceversa, intercambiando así las etiquetas entre los estados propios.
+
+Como se observa en la figura \ref{fig:Vladimir}, se detalla el procedimiento numérico para encontrar las gigantes-Rabi en general. Aquí se indica que cuando se encuentra un anticruce, se está evidenciando una interacción en la que, en principio, se intercambian los estados de la base entre los respectivos estados propios. Esto se puede comprobar usando los coeficientes de Hopfield, en los que se grafica la probabilidad de cada uno de los estados de la base de alguno de los dos vectores propios involucrados en la interacción.
+
+Una vez se obtiene el valor del detuning, $\Delta \approx -n\omega_b$, cuyo valor es negativo debido a que el detuning se define como $\Delta = \omega_b - \omega_L$. Es decir, es negativo porque se está ajustando la energía del láser a un valor mayor que el de la excitación del excitón brillante, condición requerida para generar las gigante-Rabi entre un estado de menor variedad de excitación y uno de mayor variedad de excitación.
+
+Si se quiere que el estado inicial del sistema sea el estado vacío $\ket{v,0}$, entonces se debe buscar el valor propio de energía más cercano a cero, además de considerar que la energía de estos estados también está cuantizada de acuerdo al número de fonones. Encontrar el valor de energía más cercano a cero en un detuning negativo indica que el sistema inicialmente se prepara en el estado vacío, para luego evolucionar a un estado excitón con $n$ fonones.
+
+La variedad de excitación se entiende en este contexto como el número de excitación del modo fundamental del estado del sistema. El estado vacío tiene una variedad de excitación cero, mientras que el estado $\ket{n,X}$ tiene una variedad de excitación de $n+1$, donde $X$ indica cualquier estado excitón presente en el sistema, ya sean excitones brillantes u oscuros, que pueden ser simétricos o antisimétricos. Cuando la diferencia en la variedad de excitación es mayor a 1, se genera una gigante-Rabi.
 
 \section{Configuraci\'on de Voigt $(\theta = 0^\circ)$}
 
@@ -112,7 +206,5 @@ En la figura \ref{fig:detuning-con-campo-magnetico} se observa que el desafinami
 	\bra{v,0}H\ket{X_{d+},2} &\quad \text{con} \quad \textcolor{darkgreen}{\Delta \approx -1.957\text{ meV} - 0.02B^2},\\
 	\bra{v,0}H\ket{X_{d-},2} &\quad \text{con} \quad \textcolor{red}{\Delta \approx -1.954\text{ meV} + 0.018B - 0.02B^2}.
 \end{align}
-
-
 %
 \end{document}

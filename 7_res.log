@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2024.5.31)  13 JUL 2024 19:36
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2024.5.31)  14 JUL 2024 09:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1365,8 +1365,8 @@ File: res/E11E10_B0.pdf Graphic file (type pdf)
 File: res/E10E9_B0.pdf Graphic file (type pdf)
 <use res/E10E9_B0.pdf>
 
-Underfull \hbox (badness 7273) in paragraph at lines 48--48
-[][][]|\TU/lmr/m/n/10.95 Cruce que evidencia la ausencia de
+Underfull \hbox (badness 1466) in paragraph at lines 48--48
+[][][]|\TU/lmr/m/n/10.95 Cruce, muestra ausencia de interacción
  []
 
 File: res/h11_B0.pdf Graphic file (type pdf)
@@ -1384,18 +1384,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 54--54
 File: res/h10_B0.pdf Graphic file (type pdf)
 <use res/h10_B0.pdf>
 
-Underfull \hbox (badness 2556) in paragraph at lines 61--61
-[][][]|\TU/lmr/m/n/10.95 Coeficientes de Hopfield para observar
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 61--61
-\TU/lmr/m/n/10.95 cuáles son los estados de la base
- []
-
-
-Underfull \hbox (badness 8113) in paragraph at lines 61--61
-\TU/lmr/m/n/10.95 involucrados en la reorganización de
+[][][]|\TU/lmr/m/n/10.95 Coeficientes de Hopfield cuando se
  []
 
 File: res/ψ14_B0.pdf Graphic file (type pdf)
@@ -1409,59 +1399,60 @@ File: res/ψ15_B0.pdf Graphic file (type pdf)
 ] [2]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 83.
+(hyperref)                removing `math shift' on input line 91.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\theta' on input line 83.
+(hyperref)                removing `\theta' on input line 91.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 83.
+(hyperref)                removing `superscript' on input line 91.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\circ' on input line 83.
+(hyperref)                removing `\circ' on input line 91.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 83.
+(hyperref)                removing `math shift' on input line 91.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 85.
+(hyperref)                removing `math shift' on input line 93.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\theta' on input line 85.
+(hyperref)                removing `\theta' on input line 93.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 85.
+(hyperref)                removing `superscript' on input line 93.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\circ' on input line 85.
+(hyperref)                removing `\circ' on input line 93.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 85.
+(hyperref)                removing `math shift' on input line 93.
 
 
 LaTeX Warning: Reference `fig:energia-sin-campo-magnetico' on page 3 undefined 
-on input line 89.
+on input line 97.
 
+[3]
 
-LaTeX Warning: Reference `fig:detuning-con-campo-magnetico' on page 3 undefined
- on input line 99.
+LaTeX Warning: Reference `fig:detuning-con-campo-magnetico' on page 4 undefined
+ on input line 107.
 
 File: img/../res/det_θ0.pdf Graphic file (type pdf)
 <use img/../res/det_θ0.pdf>
 
-LaTeX Warning: Reference `fig:detuning-con-campo-magnetico' on page 3 undefined
- on input line 108.
+LaTeX Warning: Reference `fig:detuning-con-campo-magnetico' on page 4 undefined
+ on input line 116.
 
-[3] [4] [5] (./7_res.aux)
+[4] (./7_res.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
@@ -1477,12 +1468,12 @@ Package logreq Info: Writing requests to '7_res.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 39066 strings out of 476878
- 840732 string characters out of 5805249
- 1948627 words of memory out of 5000000
- 60447 multiletter control sequences out of 15000+600000
- 565801 words of font info for 82 fonts, out of 8000000 for 9000
+ 39072 strings out of 476878
+ 840833 string characters out of 5805249
+ 1946627 words of memory out of 5000000
+ 60453 multiletter control sequences out of 15000+600000
+ 567349 words of font info for 88 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  128i,20n,148p,10964b,5380s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on 7_res.pdf (5 pages).
+Output written on 7_res.pdf (4 pages).
