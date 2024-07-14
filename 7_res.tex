@@ -2,7 +2,7 @@
 %
 \begin{document}
 \chapter{Resultados}
-A continuaci\'on relaciono los valores de los par\'ametros usados en todos los resultados siguientes:
+A continuación, se presentan los valores de los parámetros utilizados en todos los resultados siguientes:
 \begin{table}[h]
 	\centering
 	\caption{Par\'ametros Hamiltonianos}
@@ -30,34 +30,56 @@ A continuaci\'on relaciono los valores de los par\'ametros usados en todos los r
 		& $\gamma_\phi = 400 \text{ neV}$                                 \\ \bottomrule
 	\end{tabular}
 \end{table}
-\section{Sin campo magn\'etico $(B=0)$}
-En este apartado se quiere mostrar algunos detalles en la generaci\'on de las gigante-Rabi tomando como referencia el trabajo hecho por los autores \textcite{Vargas2022}. Lo primero que se quiere mostrar es el diagrama de energias donde se evidencie en que puntos hay interacci\'on y en cuales no. Esto se puede en el diagrama de energias donde un cruce me indica que no hay interacci\'on y un anticruce me indicar\'ia que s\'i hay interacci\'on, este anticruce tambi\'en es llamado el desdoblamiento de Rabi; por lo tanto, se mostrar\'a los respectivos diagramas de dispersi\'on donde se evidencie lo mencionado anteriormente.
+\section{Sin campo magn\'etico $(B=0 \text{\normalfont T})$}
+En este apartado, se desea mostrar algunos detalles sobre la generación de las gigante-Rabi, tomando como referencia el trabajo realizado por los autores \textcite{Vargas2022}. Primero, se presenta el diagrama de energías, donde se evidencia en qué puntos hay interacción y en cuáles no. En este diagrama, un cruce indica que no hay interacción, mientras que un anticruce señala que sí la hay. Este anticruce también se conoce como desdoblamiento de Rabi. Por lo tanto, se mostrarán los respectivos diagramas de dispersión para evidenciar lo mencionado anteriormente.
 
 \begin{figure}[htbp]
 	\centering
-	\begin{subfigure}[b]{0.45\textwidth}
+	\begin{subfigure}[b]{0.49\textwidth}
 		\centering
 		\includegraphics[width=\textwidth]{res/E11E10_B0}
-		\caption{Subfigura 1}
-		\label{fig:subfigura1}
+		\caption{Anticruce que evidencia la interacción entre los respectivos estados propios de energía.}
+		\label{fig:E11E10_B0}
 	\end{subfigure}
 	\hfill
-	\begin{subfigure}[b]{0.45\textwidth}
+	\begin{subfigure}[b]{0.49\textwidth}
 		\centering
 		\includegraphics[width=\textwidth]{res/E10E9_B0}
-		\caption{Subfigura 2}
-		\label{fig:subfigura2}
+		\caption{Cruce que evidencia la ausencia de interacción entre los respectivos estados propios de energía.}
+		\label{fig:E10E9_B0}
 	\end{subfigure}
-	\caption{Figura principal que contiene dos subfiguras.}
-	\label{fig:figura_principal}
+	\begin{subfigure}[b]{0.49\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{res/h11_B0}
+		\caption{Coeficientes de Hopfield para observar cuáles son los estados de la base involucrados en la interacción.}
+		\label{fig:sh11_B0}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[b]{0.49\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{res/h10_B0}
+		\caption{Coeficientes de Hopfield para observar cuáles son los estados de la base involucrados en la reorganización de la base cuando no hay interacción.}
+		\label{fig:h10_B0}
+	\end{subfigure}
+	\begin{subfigure}[b]{0.49\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{res/ψ14_B0}
+		\caption{Gigante-Rabi entre los estados de la base observados en los coeficientes de Hopfield.}
+		\label{fig:ψ14_B0}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[b]{0.49\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{res/ψ15_B0}
+		\caption{La ausencia de la gigante-Rabi, como se esperaba.}
+		\label{fig:ψ15_B0}
+	\end{subfigure}
+	\caption{Aquí observamos dos procesos: a la izquierda, la obtención de la gigante-Rabi a partir del diagrama de dispersión, y a la derecha, cuando no se obtiene la gigante-Rabi.}
+	\label{fig:Vladimir}
 \end{figure}
 
-%\begin{figure}[bh]
-%	\centering
-%	\includegraphics[width=.5\linewidth]{../res/E11E10_B0}
-%	\caption{Diagrama de energia del sistema cuando se gradua el laser de tal forma que al ir aumentando su frecuencia se encuentran transiciones entre estados cuya diferencia de variedades de excitacion es tres (gigante-Rabi), en este se muestran las tres permitidas y la prohibida. En la parte inferior se muestran los coeficientes de Hopfield del estado vacio con cada uno de los estados propios correspondientes.}
-%	\label{fig:E11E10_B0}
-%\end{figure}
+Como se observa en la figura \ref{fig:Vladimir}, se detalla el procedimiento numérico para encontrar las gigante-Rabi en general. Aquí se indica que cuando se encuentra un anticruce, se está evidenciando una interacción en la que, en principio, se intercambian los estados de la base entre los respectivos estados propios. Esto se puede comprobar usando los coeficientes de Hopfield, en los que se grafica la probabilidad de cada uno de los estados de la base de alguno de los dos vectores propios involucrados en la interacción. Una vez se obtiene el valor del detuning, $\Delta \approx -n\omega_b$, cuyo valor es negativo debido a que el detuning se define como $\Delta = \omega_b - \omega_L$. Es decir, es negativo porque se está ajustando la energía del láser a un valor mayor que el de la excitación del excitón brillante, condición requerida para generar las gigante-Rabi entre el estado vacío $\ket{v,0}$ y algún estado excitón. Esto indica que el sistema inicialmente se prepara en el estado vacío para que luego evolucione a un estado excitón. La variedad de excitación se entiende en este contexto como el número de excitación del modo fundamental del estado del sistema. El estado vacío tiene una variedad de excitación cero, mientras que el estado $\ket{n,X}$ tiene una variedad de excitación de $n+1$, donde $X$ indica cualquier estado excitón presente en el sistema, ya sean excitones brillantes u oscuros, que pueden ser simétricos o antisimétricos. Cuando la diferencia en la variedad de excitación es mayor a 1, se genera una gigante-Rabi.
+
 \section{Configuraci\'on de Voigt $(\theta = 0^\circ)$}
 
 \section{Configuraci\'on de Faraday $(\theta = 90^\circ)$}
