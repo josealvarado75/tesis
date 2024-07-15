@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2024.5.31)  14 JUL 2024 09:24
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2024.5.31)  15 JUL 2024 15:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1354,37 +1354,42 @@ lizados en todos los resultados
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 33.
+(hyperref)                removing `math shift' on input line 42.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 33.
+(hyperref)                removing `math shift' on input line 42.
+
+
+Overfull \hbox (8.89508pt too wide) in paragraph at lines 116--117
+ [][] 
+ []
 
 File: res/E11E10_B0.pdf Graphic file (type pdf)
 <use res/E11E10_B0.pdf>
 File: res/E10E9_B0.pdf Graphic file (type pdf)
 <use res/E10E9_B0.pdf>
 
-Underfull \hbox (badness 1466) in paragraph at lines 48--48
+Underfull \hbox (badness 1466) in paragraph at lines 134--134
 [][][]|\TU/lmr/m/n/10.95 Cruce, muestra ausencia de interacción
  []
 
 File: res/h11_B0.pdf Graphic file (type pdf)
 <use res/h11_B0.pdf>
 
-Underfull \hbox (badness 3019) in paragraph at lines 54--54
+Underfull \hbox (badness 3019) in paragraph at lines 140--140
 [][][]|\TU/lmr/m/n/10.95 Coeficientes de Hopfield para observar
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--54
+Underfull \hbox (badness 10000) in paragraph at lines 140--140
 \TU/lmr/m/n/10.95 cuáles son los estados de la base
  []
 
 File: res/h10_B0.pdf Graphic file (type pdf)
 <use res/h10_B0.pdf>
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--61
+Underfull \hbox (badness 10000) in paragraph at lines 147--147
 [][][]|\TU/lmr/m/n/10.95 Coeficientes de Hopfield cuando se
  []
 
@@ -1396,63 +1401,62 @@ File: res/ψ15_B0.pdf Graphic file (type pdf)
 
 
 
-] [2]
+] [2] [3]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 91.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\theta' on input line 91.
+(hyperref)                removing `math shift' on input line 177.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 91.
+(hyperref)                removing `\theta' on input line 177.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\circ' on input line 91.
+(hyperref)                removing `superscript' on input line 177.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 91.
+(hyperref)                removing `\circ' on input line 177.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 93.
+(hyperref)                removing `math shift' on input line 177.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\theta' on input line 93.
+(hyperref)                removing `math shift' on input line 179.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 93.
+(hyperref)                removing `\theta' on input line 179.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\circ' on input line 93.
+(hyperref)                removing `superscript' on input line 179.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 93.
+(hyperref)                removing `\circ' on input line 179.
 
 
-LaTeX Warning: Reference `fig:energia-sin-campo-magnetico' on page 3 undefined 
-on input line 97.
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 179.
 
-[3]
+
+LaTeX Warning: Reference `fig:energia-sin-campo-magnetico' on page 4 undefined 
+on input line 183.
+
 
 LaTeX Warning: Reference `fig:detuning-con-campo-magnetico' on page 4 undefined
- on input line 107.
+ on input line 193.
 
 File: img/../res/det_θ0.pdf Graphic file (type pdf)
 <use img/../res/det_θ0.pdf>
 
 LaTeX Warning: Reference `fig:detuning-con-campo-magnetico' on page 4 undefined
- on input line 116.
+ on input line 202.
 
-[4] (./7_res.aux)
+[4] [5] (./7_res.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
@@ -1468,12 +1472,12 @@ Package logreq Info: Writing requests to '7_res.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 39072 strings out of 476878
- 840833 string characters out of 5805249
- 1946627 words of memory out of 5000000
- 60453 multiletter control sequences out of 15000+600000
+ 39146 strings out of 476878
+ 842553 string characters out of 5805249
+ 1954627 words of memory out of 5000000
+ 60527 multiletter control sequences out of 15000+600000
  567349 words of font info for 88 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  128i,20n,148p,10964b,5380s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on 7_res.pdf (4 pages).
+Output written on 7_res.pdf (5 pages).
