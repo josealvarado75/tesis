@@ -31,15 +31,18 @@ A continuación, se presentan los valores de los parámetros utilizados en todos
 	\end{tabular}
 \end{table}
 
-Un aspecto importante en la generaci\'on de las oscilaciones de Rabi o gigante-Rabi es dejar claro c\'omo es la estructura de estados para que se generen, cuando el sistema no se bombea, es decir,$\omega_L=0\text{meV}$, encontramos que los estados tienen la siguiente energ\'ia
+Un aspecto crucial en la generación de las oscilaciones de Rabi o gigante-Rabi es describir claramente la estructura de estados que permite su aparición. En particular, es fundamental considerar las condiciones del sistema cuando no se aplica bombeo externo, es decir, cuando $\omega_L=0,\text{meV}$. Bajo esta condición, los estados del sistema se pueden caracterizar y sus energías se determinan de la siguiente manera:
+\begin{equation*}
+	E_n=\hbar \omega_n
+\end{equation*}
+donde $E_n$ es la energía del estado $n$ y $\omega_n$ representa la frecuencia asociada a dicho estado. En ausencia de bombeo, el sistema se encuentra en un equilibrio y los estados se distribuyen según su energía intrínseca. Esto nos permite establecer una referencia base para analizar cómo se modifica la estructura de estados y las energías correspondientes al introducir un bombeo externo con frecuencia $\omega_L$.
 
-%% figura del diagrama de energ\'ia
+Para profundizar en esta estructura, consideremos un sistema típico de dos niveles acoplados, donde los niveles energéticos se denotan como $\ket{g}$ (estado fundamental) y $\ket{e}$ (estado excitado). Las energías correspondientes a estos niveles en ausencia de bombeo son $E_g$ y $E_e$ respectivamente. La diferencia de energía entre estos estados define la frecuencia de transición natural del sistema, $\omega_0 = (E_e-E_g)/\hbar$.
 
-\begin{equation}
-	\ket{\psi} = c_1\ket{v,0} + c_2\ket{n,X}
-\end{equation}
+La interacción con un campo externo, cuando se introduce, modifica estas energías debido al acoplamiento inducido, lo que genera las oscilaciones de Rabi o gigante-Rabi, dependiendo de la intensidad y características del campo. Sin embargo, en el caso específico donde $\omega_L=0$, no hay perturbación externa y los estados energéticos permanecen en su configuración no perturbada.
 
-\section{Sin campo magn\'etico $(B=0 \text{\normalfont T})$}
+Esta comprensión inicial de la estructura de estados sin bombeo es esencial para luego interpretar las modificaciones energéticas y dinámicas inducidas por la introducción de $\omega_L$, así como para el análisis detallado de las oscilaciones de Rabi y gigante-Rabi en el sistema.
+
 \begin{figure}[htbp]
 	\centering
 	\begin{tikzpicture}[scale=1]
@@ -114,8 +117,20 @@ Un aspecto importante en la generaci\'on de las oscilaciones de Rabi o gigante-R
 			\draw[dashed] (2,6) -- (3.2,6.5) node at (4,6.5) {$\ket{X_{b+},2}$};	
 		\end{scope}
 	\end{tikzpicture}
-	\caption{Diagrama de energ\'ia sin l\'aser $(\omega_L=0\text{meV})$ y sin campo magn\'etico $(B=0\text{T})$, con energia de excitaci\'on t\'ipica de los QD $(\omega_b=1\text{eV})$. A la izquierda el diagrama de energia completo y a la derecha un acercamiento a la parte superior del diagrama debido a la gran cercan\'ia entre estados.}
+	\caption{Diagrama de energ\'ia sin l\'aser $(\omega_L=0\text{meV})$ y sin campo magn\'etico $(B=0\text{T})$, con energia de excitaci\'on t\'ipica de los QDs $(\omega_b=1\text{eV})$. A la izquierda el diagrama de energia completo y a la derecha un acercamiento a la parte superior del diagrama debido a la gran cercan\'ia entre estados.}
 \end{figure}
+
+Para que se genere una oscilación de Rabi o una oscilación gigante-Rabi\footnote{La diferencia entre estas dos es cuán grande es la diferencia entre las frecuencias de excitación de los dos estados.}, es esencial que el estado del sistema sea una superposición con igual peso de dos estados de la base. Cuando se logra esta condición, se produce una oscilación de Rabi o gigante-Rabi, dependiendo de la estructura de los estados implicados. Esto implica que se debe modificar la estructura de los estados del sistema de tal manera que dos de ellos tengan la misma energía. Esta condición es fundamental para que los estados tengan igual peso en la superposición.
+
+El parámetro inicial que elegimos para lograr esta condición es la energía del láser\footnote{Usando las unidades de energía cuando $\hbar =1$.}, que está inmersa en la definición del desafinamiento (o "detuning" en inglés) del sistema, $\Delta=\omega_b-\omega_L$, donde $\omega_b$ es la energía de excitación del excitón brillante y $\omega_L$ es la energía de excitación del láser de bombeo. Ajustando finamente la energía del láser, se encuentra que para ciertos valores, debido a la modificación de la estructura de estados por el desafinamiento, dos estados diferentes alcanzan la misma energía.
+
+En este punto, el estado del sistema se encuentra en una superposición de dos estados de la base con igual peso, es decir,
+\begin{equation}
+	\ket{\psi} = c_1\ket{v,0} + c_2\ket{X,n}
+\end{equation}
+con $|c_1|^2=|c_2|^2$.
+
+\section{Sin campo magn\'etico $(B=0 \text{\normalfont T})$}
 
 En este apartado, se desea mostrar algunos detalles sobre la generación de las gigantes-Rabi, tomando como referencia el trabajo realizado por los autores \textcite{Vargas2022}. Primero, se presenta el diagrama de energías, donde se evidencia en qué puntos hay interacción y en cuáles no. En este diagrama, un cruce indica que no hay interacción, mientras que un anticruce señala que sí la hay. Este anticruce también se conoce como desdoblamiento de Rabi. Por lo tanto, se mostrarán los respectivos diagramas de dispersión para evidenciar lo mencionado anteriormente.
 
@@ -173,6 +188,15 @@ Una vez se obtiene el valor del detuning, $\Delta \approx -n\omega_b$, cuyo valo
 Si se quiere que el estado inicial del sistema sea el estado vacío $\ket{v,0}$, entonces se debe buscar el valor propio de energía más cercano a cero, además de considerar que la energía de estos estados también está cuantizada de acuerdo al número de fonones. Encontrar el valor de energía más cercano a cero en un detuning negativo indica que el sistema inicialmente se prepara en el estado vacío, para luego evolucionar a un estado excitón con $n$ fonones.
 
 La variedad de excitación se entiende en este contexto como el número de excitación del modo fundamental del estado del sistema. El estado vacío tiene una variedad de excitación cero, mientras que el estado $\ket{n,X}$ tiene una variedad de excitación de $n+1$, donde $X$ indica cualquier estado excitón presente en el sistema, ya sean excitones brillantes u oscuros, que pueden ser simétricos o antisimétricos. Cuando la diferencia en la variedad de excitación es mayor a 1, se genera una gigante-Rabi.
+
+\begin{figure}[hb]
+	\centering
+	\includegraphics[width=0.7\linewidth]{res/ρ_B0}
+	\caption{Din\'amica no unitaria del sistema usando los valores encontrados cuando el sistema esta cerrado.}
+	\label{fig:b0}
+\end{figure}
+
+La gráfica muestra cómo la población del estado base disminuye a lo largo del tiempo mientras las poblaciones de los estados excitados aumentan, indicando una transferencia de población inducida por el bombeo del láser. El valor de \(\Delta\) juega un papel crucial en determinar qué estados excitados se pueblan más. Aquí, parece que el desafinamiento favorece la población de los estados \(\ket{X_{d+}}\) y \(\ket{X_{d-}}\).
 
 \section{Configuraci\'on de Voigt $(\theta = 0^\circ)$}
 

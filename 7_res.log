@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2024.5.31)  15 JUL 2024 15:07
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2024.5.31)  15 JUL 2024 15:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1353,43 +1353,66 @@ lizados en todos los resultados
  []
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 42.
+Overfull \hbox (3.20105pt too wide) in paragraph at lines 34--35
+\TU/lmr/m/n/12 claramente la estructura de estados que permite su aparición. En
+ particular, es fundamental
+ []
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 42.
+Overfull \hbox (9.64923pt too wide) in paragraph at lines 40--41
+[]\TU/lmr/m/n/12 Para profundizar en esta estructura, consideremos un sistema t
+ípico de dos niveles acoplados,
+ []
 
 
-Overfull \hbox (8.89508pt too wide) in paragraph at lines 116--117
+Overfull \hbox (7.49055pt too wide) in paragraph at lines 42--43
+\TU/lmr/m/n/12 al acoplamiento inducido, lo que genera las oscilaciones de Rabi
+ o gigante-Rabi, dependiendo
+ []
+
+[1
+
+
+
+]
+Overfull \hbox (8.89508pt too wide) in paragraph at lines 119--120
  [][] 
  []
+
+[2]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 133.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 133.
 
 File: res/E11E10_B0.pdf Graphic file (type pdf)
 <use res/E11E10_B0.pdf>
 File: res/E10E9_B0.pdf Graphic file (type pdf)
 <use res/E10E9_B0.pdf>
 
-Underfull \hbox (badness 1466) in paragraph at lines 134--134
+Underfull \hbox (badness 1466) in paragraph at lines 149--149
 [][][]|\TU/lmr/m/n/10.95 Cruce, muestra ausencia de interacción
  []
 
 File: res/h11_B0.pdf Graphic file (type pdf)
 <use res/h11_B0.pdf>
 
-Underfull \hbox (badness 3019) in paragraph at lines 140--140
+Underfull \hbox (badness 3019) in paragraph at lines 155--155
 [][][]|\TU/lmr/m/n/10.95 Coeficientes de Hopfield para observar
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 140--140
+Underfull \hbox (badness 10000) in paragraph at lines 155--155
 \TU/lmr/m/n/10.95 cuáles son los estados de la base
  []
 
 File: res/h10_B0.pdf Graphic file (type pdf)
 <use res/h10_B0.pdf>
 
-Underfull \hbox (badness 10000) in paragraph at lines 147--147
+Underfull \hbox (badness 10000) in paragraph at lines 162--162
 [][][]|\TU/lmr/m/n/10.95 Coeficientes de Hopfield cuando se
  []
 
@@ -1397,66 +1420,66 @@ File: res/ψ14_B0.pdf Graphic file (type pdf)
 <use res/ψ14_B0.pdf>
 File: res/ψ15_B0.pdf Graphic file (type pdf)
 <use res/ψ15_B0.pdf>
-[1
-
-
-
-] [2] [3]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 177.
+[3] [4]
+File: res/ρ_B0.pdf Graphic file (type pdf)
+<use res/ρ_B0.pdf>
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\theta' on input line 177.
+(hyperref)                removing `math shift' on input line 201.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 177.
+(hyperref)                removing `\theta' on input line 201.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\circ' on input line 177.
+(hyperref)                removing `superscript' on input line 201.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 177.
+(hyperref)                removing `\circ' on input line 201.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 179.
+(hyperref)                removing `math shift' on input line 201.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\theta' on input line 179.
+(hyperref)                removing `math shift' on input line 203.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 179.
+(hyperref)                removing `\theta' on input line 203.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\circ' on input line 179.
+(hyperref)                removing `superscript' on input line 203.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 179.
+(hyperref)                removing `\circ' on input line 203.
 
 
-LaTeX Warning: Reference `fig:energia-sin-campo-magnetico' on page 4 undefined 
-on input line 183.
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 203.
 
 
-LaTeX Warning: Reference `fig:detuning-con-campo-magnetico' on page 4 undefined
- on input line 193.
+LaTeX Warning: Reference `fig:energia-sin-campo-magnetico' on page 5 undefined 
+on input line 207.
+
+[5]
+
+LaTeX Warning: Reference `fig:detuning-con-campo-magnetico' on page 6 undefined
+ on input line 217.
 
 File: img/../res/det_θ0.pdf Graphic file (type pdf)
 <use img/../res/det_θ0.pdf>
 
-LaTeX Warning: Reference `fig:detuning-con-campo-magnetico' on page 4 undefined
- on input line 202.
+LaTeX Warning: Reference `fig:detuning-con-campo-magnetico' on page 6 undefined
+ on input line 226.
 
-[4] [5] (./7_res.aux)
+[6] (./7_res.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
@@ -1472,12 +1495,12 @@ Package logreq Info: Writing requests to '7_res.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 39146 strings out of 476878
- 842553 string characters out of 5805249
- 1954627 words of memory out of 5000000
- 60527 multiletter control sequences out of 15000+600000
- 567349 words of font info for 88 fonts, out of 8000000 for 9000
+ 39175 strings out of 476878
+ 843159 string characters out of 5805249
+ 1943627 words of memory out of 5000000
+ 60553 multiletter control sequences out of 15000+600000
+ 568003 words of font info for 92 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  128i,20n,148p,10964b,5380s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on 7_res.pdf (5 pages).
+Output written on 7_res.pdf (6 pages).
